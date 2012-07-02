@@ -1,0 +1,8 @@
+author: Dbla8888
+database: false
+description: Increases the difficulty of server play.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: me.dbla8888.plugins.hardcoremode.Hardcoremode
+name: HardcoreMode
+startup: postworld
+version: '1.0'
