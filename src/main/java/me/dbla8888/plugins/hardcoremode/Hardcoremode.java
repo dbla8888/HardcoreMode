@@ -24,6 +24,7 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     OfflinePlayer[] offlineplayers;
     boolean deathevent = false;
     Random random = new Random();
+    int worldcounter = 0;
 
         
      /**
@@ -34,6 +35,7 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
+        deathevent = false;
         System.out.println(this + " is now enabled!");
     }
     
@@ -58,26 +60,27 @@ public class Hardcoremode extends JavaPlugin implements Listener {
         
         if(deathevent)
         {
-            player.teleport(getServer().getWorld("nether").getSpawnLocation());
-        }else
-        {
-            if(player.getWorld() == getServer().getWorld("dummyworld"))
-            {
-                if(getServer().getWorld("world") != null)
-                {
-                    player.teleport(getServer().getWorld("world").getSpawnLocation());
-                }else
-                {//need to add some error handling, should be good for the time being though
-                    getServer().getScheduler().scheduleAsyncDelayedTask(this, 
-                        new Runnable() {
-                            public void run() {
-                               player.teleport(getServer().getWorld("world").getSpawnLocation());
-                            }
-                        }, 20*30);
-                }
-
-            }
+            player.teleport(getServer().getWorld("nether").getSpawnLocation());     
         }
+        
+        if(player.getWorld() == getServer().getWorld("dummyworld") && getServer().getWorld("world" + worldcounter) != null)
+        {
+                player.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
+        }
+        
+        if(player.getWorld() == getServer().getWorld("nether") && !deathevent)
+        {
+            player.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
+        }
+//            {//need to add some error handling, should be good for the time being though
+//                getServer().getScheduler().scheduleAsyncDelayedTask(this, 
+//                    new Runnable() {
+//                        public void run() {
+//                           player.teleport(getServer().getWorld("world" + worldcounter).getSpawnLocation());
+//                        }
+//                    }, 20*30);
+//            }
+        
     }
     
      /**
@@ -127,30 +130,33 @@ public class Hardcoremode extends JavaPlugin implements Listener {
             
 //step 4
                        
-            getServer().unloadWorld("world", false);
-            getServer().unloadWorld("world_nether", false);
-            getServer().unloadWorld("world_the_end", false);
+            getServer().unloadWorld("world"+ worldcounter , false);
+            getServer().unloadWorld("world"+ worldcounter +"_nether", false);
+            getServer().unloadWorld("world"+ worldcounter +"_the_end", false);
             
             //try{
-            String worldfolder = getServer().getWorldContainer().getAbsolutePath();
-            if(!(new File(worldfolder + "\\world").delete() &&
-            new File(worldfolder + "\\world_nether").delete()&&
-            new File(worldfolder + "\\world_the_end").delete()))
-                System.out.println("failed to delete worlds");
+            //String worldfolder = getServer().getWorldContainer().getAbsolutePath();
+            //if(!(new File(worldfolder + "\\world").delete() &&
+            //new File(worldfolder + "\\world_nether").delete()&&
+            //new File(worldfolder + "\\world_the_end").delete()))
+            //    System.out.println("failed to delete worlds");
             //}catch(Exception e){e.printStackTrace();}
             
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw delete world");
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw delete world_nether");
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw delete world_the_end");
+            getServer().dispatchCommand(getServer().getConsoleSender(), "mw delete world"+worldcounter);
+            getServer().dispatchCommand(getServer().getConsoleSender(), "mw delete world"+worldcounter+"_nether");
+            getServer().dispatchCommand(getServer().getConsoleSender(), "mw delete world"+worldcounter+"_the_end");
             
 
 //step 5
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world normal " + random.nextLong());
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world_nether nether " + random.nextLong());
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world_the_end the_end " + random.nextLong());
+            worldcounter++;
+            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + " normal");
+            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_nether nether ");
+            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_the_end the_end ");
             
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw link world world_nether ");
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw link-end world world_the_end ");
+            getServer().dispatchCommand(getServer().getConsoleSender(), 
+                    "mw link world"+ worldcounter + " world"+ worldcounter + "_nether ");
+            getServer().dispatchCommand(getServer().getConsoleSender(), 
+                    "mw link-end world"+ worldcounter + " world"+ worldcounter + "_the_end ");
             
 //step 6, 7, & 8
             BukkitScheduler scheduler = this.getServer().getScheduler();
@@ -158,11 +164,11 @@ public class Hardcoremode extends JavaPlugin implements Listener {
             int taskID = scheduler.scheduleAsyncDelayedTask(this, 
                new Runnable() {
                     public void run() {
-                        getServer().getWorld("world").setTime(0000);
+                        getServer().getWorld("world" + worldcounter).setTime(0000);
                         players = getServer().getOnlinePlayers();                     
                         for(Player player: players)
                         {
-                            player.teleport(getServer().getWorld("world").getSpawnLocation());
+                            player.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
                             player.setHealth(20);
                         }
                         deathevent = false;
