@@ -1,6 +1,7 @@
 package me.dbla8888.plugins.hardcoremode;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Collection;
 import java.util.Random;
 import java.util.logging.Level;
@@ -35,7 +36,10 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
+        getServer().getWorld("nether").setKeepSpawnInMemory(true);
         deathevent = false;
+        worldcounter = getConfig().getInt("global.worldcounter");
+        System.out.println("worldcounter: " + worldcounter);
         System.out.println(this + " is now enabled!");
     }
     
@@ -46,6 +50,12 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     @Override
     public void onDisable() {
         System.out.println(this + " is now disabled!");
+        getConfig().set("global.worldcounter", worldcounter);
+        try {
+            getConfig().save(new File(getServer().getWorldContainer() + "\\plugins\\Hardcoremode\\config.yml"));
+        } catch (IOException ex) {
+            Logger.getLogger(Hardcoremode.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
    /**
@@ -57,7 +67,8 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     public void onPlayerLogin(PlayerLoginEvent event)
     {
         final Player player = event.getPlayer();
-        
+        System.out.println("player in " + player.getWorld());
+        System.out.println("deathevent: " + deathevent);
         if(deathevent)
         {
             player.teleport(getServer().getWorld("nether").getSpawnLocation());     
@@ -68,7 +79,7 @@ public class Hardcoremode extends JavaPlugin implements Listener {
                 player.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
         }
         
-        if(player.getWorld() == getServer().getWorld("nether") && !deathevent)
+        if(player.getWorld() == getServer().getWorld("nether"))
         {
             player.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
         }
@@ -159,8 +170,25 @@ public class Hardcoremode extends JavaPlugin implements Listener {
                     "mw link-end world"+ worldcounter + " world"+ worldcounter + "_the_end ");
             
 //step 6, 7, & 8
-            BukkitScheduler scheduler = this.getServer().getScheduler();
-
+            schedule();
+        }
+    }
+    
+     /**
+     * sends a log message to the server console
+     * @param level
+     * @param message 
+     */
+    public void log(Level level, String message)
+    {
+            PluginDescriptionFile desc = this.getDescription();
+            logger.log(level, desc.getName() + " v" + desc.getVersion() + ": " + message);
+    }
+    
+    public void schedule()
+    {
+        BukkitScheduler scheduler = this.getServer().getScheduler();
+            System.out.println("Scheduling...");
             int taskID = scheduler.scheduleAsyncDelayedTask(this, 
                new Runnable() {
                     public void run() {
@@ -177,18 +205,6 @@ public class Hardcoremode extends JavaPlugin implements Listener {
             if(taskID == -1){
                     this.log(Level.WARNING, "failed to schedule!");
             }
-        }
-    }
-    
-     /**
-     * sends a log message to the server console
-     * @param level
-     * @param message 
-     */
-    public void log(Level level, String message)
-    {
-            PluginDescriptionFile desc = this.getDescription();
-            logger.log(level, desc.getName() + " v" + desc.getVersion() + ": " + message);
     }
 }
 
