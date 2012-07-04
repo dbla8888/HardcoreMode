@@ -137,20 +137,20 @@ Bonus Spawns:
     chance: 100.0
 Naturalistic Bonus Spawns:
   Creeper:
-    spawn: true
+    spawn: false
     chance: 5.0
   Enderman:
     spawn: false
     chance: 100.0
   Skeleton:
     spawn: true
-    chance: 35.0
+    chance: 100.0
   Spider:
-    spawn: true
+    spawn: false
     chance: 10.0
   Zombie:
     spawn: true
-    chance: 50.0
+    chance: 100.0
   Blaze:
     spawn: false
     chance: 100.0
@@ -947,6 +947,6 @@ Drops:
 Spawn Block Blacklist:
 - block
 Worlds:
-- world14
-- world14_nether
-- world14_the_end
+- world0
+- world0_nether
+- world0_the_end

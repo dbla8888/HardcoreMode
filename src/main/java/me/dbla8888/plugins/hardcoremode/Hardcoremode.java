@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.bukkit.ChatColor;
@@ -29,6 +31,7 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     //Random random = new Random();
     int worldcounter;
     boolean debug = true;
+    BukkitScheduler scheduler;
         
      /**
      * onEnable is called on server startup at a stage specified in the
@@ -39,10 +42,10 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
         getServer().getWorld("nether").setKeepSpawnInMemory(true);
+        scheduler = this.getServer().getScheduler();
         deathevent = false;
         worldcounter = getConfig().getInt("global.worldcounter" , 0);
         if(debug)log(Level.INFO, ChatColor.RED + "worldcounter: " + worldcounter);
-        
         if(getServer().getWorld("world"+worldcounter) == null
                 || getServer().getWorld("world"+worldcounter+"_nether") == null
                 || getServer().getWorld("world"+worldcounter+"_the_end") == null)
@@ -181,7 +184,7 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     
     public void scheduleTeleportAll()
     {
-        BukkitScheduler scheduler = this.getServer().getScheduler();
+        
         if(debug)log(Level.INFO, "Scheduling teleport all...");
         int taskID = scheduler.scheduleAsyncDelayedTask(this, 
            new Runnable() {
@@ -198,7 +201,7 @@ public class Hardcoremode extends JavaPlugin implements Listener {
                     }
                     deathevent = false;
                 }
-           }, 20*60*1);
+           }, 20*40*1);
         if(taskID == -1){
                 this.log(Level.WARNING, "failed to schedule teleport!");
         }
@@ -209,7 +212,7 @@ public class Hardcoremode extends JavaPlugin implements Listener {
         final Player play3r = player;
         BukkitScheduler scheduler = this.getServer().getScheduler();
         if(debug)log(Level.INFO,"Scheduling teleport player...");
-
+        play3r.sendMessage("Teleporting to overworld....");
         int taskID = scheduler.scheduleAsyncDelayedTask(this, 
            new Runnable() {
                 public void run() 
@@ -221,42 +224,60 @@ public class Hardcoremode extends JavaPlugin implements Listener {
                         play3r.setHealth(20);
                     } 
                 }
-           }, 20*30*1);
+           }, 20*10*1);
         if(taskID == -1){
                 this.log(Level.WARNING, "failed to schedule teleport!");
         }
     }
+    
+    private void generateWorlds()
+    {
+        getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + " normal");
+        getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_nether nether ");
+        getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_the_end the_end ");
 
-    private void generateWorlds() {
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + " normal");
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_nether nether ");
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_the_end the_end ");
-            
-            getServer().dispatchCommand(getServer().getConsoleSender(), 
-                    "mw link world"+ worldcounter + " world"+ worldcounter + "_nether");
-            getServer().dispatchCommand(getServer().getConsoleSender(), 
-                    "mw link-end world"+ worldcounter + " world"+ worldcounter + "_the_end");
-            
-            getServer().getWorld("world"+worldcounter).setDifficulty(Difficulty.HARD);
-            getServer().getWorld("world"+worldcounter+"_nether").setDifficulty(Difficulty.HARD);
-            getServer().getWorld("world"+worldcounter+"_the_end").setDifficulty(Difficulty.HARD);
-            
-            LinkedList<String> worlds = new LinkedList<String>();
-            worlds.add("world"+worldcounter);
-            worlds.add("world"+worldcounter+ "_nether");
-            worlds.add("world"+worldcounter+ "_the_end");
-            
-            File configFile = new File(
-              getServer().getPluginManager().getPlugin("Monster Apocalypse").getDataFolder(), "config.yml");
-            
-            getServer().getPluginManager().getPlugin("Monster Apocalypse").getConfig().set("Worlds", worlds);
-            
-            try {
-                getServer().getPluginManager().getPlugin("Monster Apocalypse").getConfig().save(configFile);
-            } catch (IOException ex) {
-                Logger.getLogger(Hardcoremode.class.getName()).log(Level.SEVERE, null, ex);
+        getServer().dispatchCommand(getServer().getConsoleSender(), 
+                "mw link world"+ worldcounter + " world"+ worldcounter + "_nether");
+        getServer().dispatchCommand(getServer().getConsoleSender(), 
+                "mw link-end world"+ worldcounter + " world"+ worldcounter + "_the_end");
+
+        getServer().getWorld("world"+worldcounter).setDifficulty(Difficulty.HARD);
+        getServer().getWorld("world"+worldcounter+"_nether").setDifficulty(Difficulty.HARD);
+        getServer().getWorld("world"+worldcounter+"_the_end").setDifficulty(Difficulty.HARD);
+
+        //change difficulty in multiworld config :(
+        File configFile = new File(
+        getServer().getPluginManager().getPlugin("MultiWorld").getDataFolder(), "config.yml");
+
+        getServer().getPluginManager().getPlugin("MultiWorld").getConfig().set(
+                "worlds.world"+worldcounter+".difficulty", 3);
+        getServer().getPluginManager().getPlugin("MultiWorld").getConfig().set(
+                "worlds.world"+worldcounter+"_nether.difficulty", 3);
+        getServer().getPluginManager().getPlugin("MultiWorld").getConfig().set(
+                "worlds.world"+worldcounter+"_the_end.difficulty", 3);
+
+        try {
+            getServer().getPluginManager().getPlugin("MultiWorld").getConfig().save(configFile);
+        } catch (IOException ex) {
+            Logger.getLogger(Hardcoremode.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+        LinkedList<String> worlds = new LinkedList<String>();
+        worlds.add("world"+worldcounter);
+        worlds.add("world"+worldcounter+ "_nether");
+        worlds.add("world"+worldcounter+ "_the_end");
+
+        // add new worlds to monster apocalypse config so things to crash on MA event
+        configFile = new File(
+          getServer().getPluginManager().getPlugin("Monster Apocalypse").getDataFolder(), "config.yml");
+
+        getServer().getPluginManager().getPlugin("Monster Apocalypse").getConfig().set("Worlds", worlds);
+
+        try {
+            getServer().getPluginManager().getPlugin("Monster Apocalypse").getConfig().save(configFile);
+        } catch (IOException ex) {
+            Logger.getLogger(Hardcoremode.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }
 

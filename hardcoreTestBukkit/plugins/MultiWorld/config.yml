@@ -10,11 +10,17 @@ options:
   useEndPortalHandler: true
   locale: en_US
 worlds:
-  world14_nether:
-    seed: 6686835326263815684
+  world0_the_end:
+    seed: 6362996607307893203
+    worldgen: THE_END
+    options: ''
+    difficulty: 3
+    autoload: true
+  world0_nether:
+    seed: -8138048820645048679
     worldgen: NETHER
     options: ''
-    difficulty: 2
+    difficulty: 3
     autoload: true
   nether:
     seed: 4507762429257660221
@@ -22,23 +28,17 @@ worlds:
     options: ''
     difficulty: 3
     autoload: true
-  world14:
-    seed: -8696200508321705610
-    worldgen: NORMAL
-    options: ''
-    difficulty: 2
-    autoload: true
-    netherportal: world14_nether
-    endportal: world14_the_end
-  world14_the_end:
-    seed: 8753897965918237827
-    worldgen: THE_END
-    options: ''
-    difficulty: 2
-    autoload: true
   dummyworld:
     seed: -6680624063628379815
     worldgen: NORMAL
     options: ''
     difficulty: 3
     autoload: true
+  world0:
+    seed: 4828723078207315079
+    worldgen: NORMAL
+    options: ''
+    difficulty: 3
+    autoload: true
+    netherportal: world0_nether
+    endportal: world0_the_end

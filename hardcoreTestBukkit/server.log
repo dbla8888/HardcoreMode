@@ -18930,3 +18930,1062 @@ java.lang.NullPointerException
 2012-07-04 01:38:40 [INFO] Saving chunks
 2012-07-04 01:38:43 [INFO] Stopping server
 2012-07-04 01:38:43 [INFO] Saving chunks
+2012-07-04 11:51:42 [INFO] Starting minecraft server version 1.2.5
+2012-07-04 11:51:42 [INFO] Loading properties
+2012-07-04 11:51:42 [INFO] Starting Minecraft server on *:25565
+2012-07-04 11:51:42 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2012-07-04 11:51:42 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2012-07-04 11:51:42 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2012-07-04 11:51:42 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2012-07-04 11:51:42 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-04 11:51:43 [INFO] [PermissionsEx] sql backend registered!
+2012-07-04 11:51:43 [INFO] [PermissionsEx] file backend registered!
+2012-07-04 11:51:43 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2012-07-04 11:51:43 [INFO] [MultiWorld] Loading MultiWorld v3.3.1
+2012-07-04 11:51:43 [INFO] [BlockDispenser] Loading BlockDispenser v0.0.1
+2012-07-04 11:51:43 [INFO] [HealingTotem] Loading HealingTotem v0.7
+2012-07-04 11:51:43 [INFO] [HardcoreMode] Loading HardcoreMode v1.0
+2012-07-04 11:51:43 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.2
+2012-07-04 11:51:43 [INFO] [PermissionsEx] Initializing file backend
+2012-07-04 11:51:43 [INFO] [Modifyworld] Loading Modifyworld v1.19
+2012-07-04 11:51:43 [INFO] [Monster Apocalypse] Loading Monster Apocalypse v<0.0.1>
+2012-07-04 11:51:43 [INFO] [MiscellaneousPlugin] Loading MiscellaneousPlugin v1.0
+2012-07-04 11:51:43 [INFO] [ChatManager] Loading ChatManager v1.19.1
+2012-07-04 11:51:43 [INFO] Preparing level "dummyworld"
+2012-07-04 11:51:43 [INFO] Default game type: 0
+2012-07-04 11:51:43 [INFO] Preparing start region for level 0 (Seed: -6680624063628379815)
+2012-07-04 11:51:44 [INFO] Preparing spawn area: 20%
+2012-07-04 11:51:45 [INFO] Preparing spawn area: 93%
+2012-07-04 11:51:45 [INFO] [MultiWorld] Enabling MultiWorld v3.3.1
+2012-07-04 11:51:45 [INFO] Preparing start region for level 1 (Seed: 6686835326263815684)
+2012-07-04 11:51:47 [INFO] Preparing spawn area for world14_nether, 52%
+2012-07-04 11:51:47 [INFO] Preparing start region for level 2 (Seed: 4507762429257660221)
+2012-07-04 11:51:48 [INFO] Preparing spawn area for nether, 52%
+2012-07-04 11:51:49 [INFO] Preparing spawn area for nether, 97%
+2012-07-04 11:51:49 [INFO] Preparing start region for level 3 (Seed: -8696200508321705610)
+2012-07-04 11:51:50 [INFO] Preparing spawn area for world14, 48%
+2012-07-04 11:51:51 [INFO] Preparing spawn area for world14, 97%
+2012-07-04 11:51:52 [INFO] Preparing start region for level 4 (Seed: 8753897965918237827)
+2012-07-04 11:51:52 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 11:51:52 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 11:51:52 [INFO] [MultiWorld] Enabling MultiWorld
+2012-07-04 11:51:52 [INFO] [MultiWorld] v3.3.1 enabled.
+2012-07-04 11:51:52 [INFO] [BlockDispenser] Enabling BlockDispenser v0.0.1
+2012-07-04 11:51:52 [INFO] BlockDispenser has been enabled.
+2012-07-04 11:51:52 [INFO] [HealingTotem] Enabling HealingTotem v0.7
+2012-07-04 11:51:52 [INFO] HealingTotem v0.7: is enabled!
+2012-07-04 11:51:52 [INFO] HealingTotem v0.7: Effect interval set to 2 second(s)
+2012-07-04 11:51:52 [INFO] HealingTotem v0.7: loaded 15 totem types
+2012-07-04 11:51:52 [INFO] HealingTotem v0.7: loaded 0 totems
+2012-07-04 11:51:52 [INFO] [HardcoreMode] Enabling HardcoreMode v1.0
+2012-07-04 11:51:53 [INFO] HardcoreMode v1.0: §cworldcounter: 14
+2012-07-04 11:51:53 [INFO] HardcoreMode v1.0 is now enabled!
+2012-07-04 11:51:53 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.2
+2012-07-04 11:51:53 [INFO] [PermissionsEx] Superperms support enabled.
+2012-07-04 11:51:53 [INFO] [PermissionsEx] v1.19.2 enabled
+2012-07-04 11:51:53 [INFO] [Modifyworld] Enabling Modifyworld v1.19
+2012-07-04 11:51:53 [INFO] [Modifyworld] Modifyworld enabled!
+2012-07-04 11:51:53 [INFO] [Monster Apocalypse] Enabling Monster Apocalypse v<0.0.1>
+2012-07-04 11:51:53 [INFO] Monster Apocalypse enabled.
+2012-07-04 11:51:53 [INFO] [MiscellaneousPlugin] Enabling MiscellaneousPlugin v1.0
+2012-07-04 11:51:53 [INFO] [Monster Apocalypse] Disabling Monster Apocalypse v<0.0.1>
+2012-07-04 11:51:53 [INFO] Monster Apocalypse disabled.
+2012-07-04 11:51:53 [INFO] MiscellaneousPlugin v1.0 is now enabled!
+2012-07-04 11:51:53 [INFO] [ChatManager] Enabling ChatManager v1.19.1
+2012-07-04 11:51:53 [INFO] [ChatManager] ChatManager disabled. Check config.yml!
+2012-07-04 11:51:53 [INFO] [ChatManager] Disabling ChatManager v1.19.1
+2012-07-04 11:51:53 [INFO] [ChatManager] ChatManager disabled!
+2012-07-04 11:51:53 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-04 11:51:53 [INFO] Done (10.261s)! For help, type "help" or "?"
+2012-07-04 11:57:41 [INFO] HardcoreMode v1.0: player in world14
+2012-07-04 11:57:41 [INFO] HardcoreMode v1.0: world14
+2012-07-04 11:57:41 [INFO] HardcoreMode v1.0: deathevent: false
+2012-07-04 11:57:41 [INFO] dbla8888 [/127.0.0.1:4568] logged in with entity id 762 at ([world14] 64.0, 72.0, 252.0)
+2012-07-04 11:58:28 [INFO] Placed stronghold in INVALID biome at (-41, 22)
+2012-07-04 12:04:06 [INFO] [31;1mdbla8888 has died![m
+2012-07-04 12:04:06 [INFO] [32;1mUnloaded world world14![m
+2012-07-04 12:04:06 [INFO] [32;1mDeleted world world14![m
+2012-07-04 12:04:06 [INFO] [32;1mUnloaded world world14_nether![m
+2012-07-04 12:04:06 [INFO] [32;1mDeleted world world14_nether![m
+2012-07-04 12:04:06 [INFO] [32;1mUnloaded world world14_the_end![m
+2012-07-04 12:04:06 [INFO] [32;1mDeleted world world14_the_end![m
+2012-07-04 12:04:06 [INFO] HardcoreMode v1.0: Scheduling teleport all...
+2012-07-04 12:04:06 [INFO] [32;1mCreating world...[m
+2012-07-04 12:04:06 [INFO] CONSOLE: is making an new world named: world15[m
+2012-07-04 12:04:06 [INFO] Placed stronghold in INVALID biome at (-35, 20)
+2012-07-04 12:04:06 [INFO] Preparing start region for level 2 (Seed: -7261011693529537477)
+2012-07-04 12:04:07 [INFO] Preparing spawn area for world15, 4%
+2012-07-04 12:04:07 [SEVERE] java.lang.IllegalStateException: TickNextTick list out of synch
+2012-07-04 12:04:07 [SEVERE] 	at net.minecraft.server.World.a(World.java:2380)
+2012-07-04 12:04:07 [SEVERE] 	at net.minecraft.server.World.doTick(World.java:1755)
+2012-07-04 12:04:07 [SEVERE] 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:554)
+2012-07-04 12:04:07 [SEVERE] 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+2012-07-04 12:04:07 [SEVERE] 	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+2012-07-04 12:04:07 [SEVERE] Unexpected exception
+java.lang.IllegalStateException: TickNextTick list out of synch
+	at net.minecraft.server.World.a(World.java:2380)
+	at net.minecraft.server.World.doTick(World.java:1755)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:554)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+2012-07-04 12:04:08 [INFO] Preparing spawn area for world15, 12%
+2012-07-04 12:04:09 [INFO] Preparing spawn area for world15, 16%
+2012-07-04 12:04:10 [INFO] Preparing spawn area for world15, 24%
+2012-07-04 12:04:11 [INFO] Preparing spawn area for world15, 28%
+2012-07-04 12:04:12 [INFO] Preparing spawn area for world15, 36%
+2012-07-04 12:04:13 [INFO] Preparing spawn area for world15, 40%
+2012-07-04 12:04:14 [INFO] Preparing spawn area for world15, 44%
+2012-07-04 12:04:15 [INFO] Preparing spawn area for world15, 52%
+2012-07-04 12:04:16 [INFO] Preparing spawn area for world15, 57%
+2012-07-04 12:04:17 [INFO] Preparing spawn area for world15, 65%
+2012-07-04 12:04:18 [INFO] Preparing spawn area for world15, 69%
+2012-07-04 12:04:19 [INFO] Preparing spawn area for world15, 73%
+2012-07-04 12:04:20 [INFO] Preparing spawn area for world15, 77%
+2012-07-04 12:04:21 [INFO] Preparing spawn area for world15, 85%
+2012-07-04 12:04:22 [INFO] Preparing spawn area for world15, 89%
+2012-07-04 12:04:23 [INFO] Preparing spawn area for world15, 93%
+2012-07-04 12:04:24 [INFO] CONSOLE: loaded an world: world15[m
+2012-07-04 12:04:24 [INFO] [32;1mSuccesfully created world15 with generator {1} and seed -long7261011693529537477.[m
+2012-07-04 12:04:24 [INFO] [32;1mCreating world...[m
+2012-07-04 12:04:24 [INFO] CONSOLE: is making an new world named: world15_nether[m
+2012-07-04 12:04:24 [INFO] Preparing start region for level 3 (Seed: -6515781910654656367)
+2012-07-04 12:04:26 [INFO] Preparing spawn area for world15_nether, 4%
+2012-07-04 12:04:27 [INFO] Preparing spawn area for world15_nether, 12%
+2012-07-04 12:04:28 [INFO] Preparing spawn area for world15_nether, 16%
+2012-07-04 12:04:29 [INFO] Preparing spawn area for world15_nether, 24%
+2012-07-04 12:04:30 [INFO] Preparing spawn area for world15_nether, 28%
+2012-07-04 12:04:31 [INFO] Preparing spawn area for world15_nether, 36%
+2012-07-04 12:04:32 [INFO] Preparing spawn area for world15_nether, 44%
+2012-07-04 12:04:33 [INFO] Preparing spawn area for world15_nether, 52%
+2012-07-04 12:04:34 [INFO] Preparing spawn area for world15_nether, 57%
+2012-07-04 12:04:35 [INFO] Preparing spawn area for world15_nether, 61%
+2012-07-04 12:04:36 [INFO] Preparing spawn area for world15_nether, 65%
+2012-07-04 12:04:37 [INFO] Preparing spawn area for world15_nether, 77%
+2012-07-04 12:04:38 [INFO] Preparing spawn area for world15_nether, 81%
+2012-07-04 12:04:39 [INFO] Preparing spawn area for world15_nether, 85%
+2012-07-04 12:04:40 [INFO] Preparing spawn area for world15_nether, 93%
+2012-07-04 12:04:41 [INFO] CONSOLE: loaded an world: world15_nether[m
+2012-07-04 12:04:41 [INFO] [32;1mSuccesfully created world15_nether with generator {1} and seed -long6515781910654656367.[m
+2012-07-04 12:04:41 [INFO] [32;1mCreating world...[m
+2012-07-04 12:04:41 [INFO] CONSOLE: is making an new world named: world15_the_end[m
+2012-07-04 12:04:41 [INFO] Preparing start region for level 4 (Seed: 7098239163647047391)
+2012-07-04 12:04:42 [INFO] Preparing spawn area for world15_the_end, 16%
+2012-07-04 12:04:43 [INFO] Preparing spawn area for world15_the_end, 40%
+2012-07-04 12:04:44 [INFO] Preparing spawn area for world15_the_end, 57%
+2012-07-04 12:04:45 [INFO] Preparing spawn area for world15_the_end, 77%
+2012-07-04 12:04:46 [INFO] Preparing spawn area for world15_the_end, 97%
+2012-07-04 12:04:46 [INFO] CONSOLE: loaded an world: world15_the_end[m
+2012-07-04 12:04:46 [INFO] [32;1mSuccesfully created world15_the_end with generator {1} and seed long7098239163647047391.[m
+2012-07-04 12:04:46 [INFO] [32;1mSet portal link for world {0} to world {1}[m
+2012-07-04 12:04:46 [INFO] [MultiWorld] [PortalHandler] saved!
+2012-07-04 12:04:46 [INFO] [32;1mportal link updated[m
+2012-07-04 12:04:46 [INFO] [32;1mSet portal link for world {0} to world {1}[m
+2012-07-04 12:04:46 [INFO] [MultiWorld] [PortalHandler] saved!
+2012-07-04 12:04:46 [INFO] [32;1mportal link updated[m
+2012-07-04 12:05:55 [INFO] CONSOLE: Stopping the server..[m
+2012-07-04 12:05:55 [INFO] Stopping server
+2012-07-04 12:05:55 [INFO] [MiscellaneousPlugin] Disabling MiscellaneousPlugin v1.0
+2012-07-04 12:05:55 [INFO] MiscellaneousPlugin v1.0 is now disabled!
+2012-07-04 12:05:55 [INFO] [Modifyworld] Disabling Modifyworld v1.19
+2012-07-04 12:05:55 [INFO] [Modifyworld] Modifyworld disabled!
+2012-07-04 12:05:55 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.2
+2012-07-04 12:05:55 [INFO] [PermissionsEx] v1.19.2 disabled successfully.
+2012-07-04 12:05:55 [INFO] [HardcoreMode] Disabling HardcoreMode v1.0
+2012-07-04 12:05:55 [INFO] HardcoreMode v1.0 is now disabled!
+2012-07-04 12:05:55 [INFO] [HealingTotem] Disabling HealingTotem v0.7
+2012-07-04 12:05:55 [INFO] HealingTotem v0.7: saved 0 totems
+2012-07-04 12:05:55 [INFO] HealingTotem v0.7: is disabled!
+2012-07-04 12:05:55 [INFO] [BlockDispenser] Disabling BlockDispenser v0.0.1
+2012-07-04 12:05:55 [INFO] BlockDispenser has been disabled.
+2012-07-04 12:05:55 [INFO] [MultiWorld] Disabling MultiWorld v3.3.1
+2012-07-04 12:05:55 [INFO] [MultiWorld] Disabled.
+2012-07-04 12:05:55 [INFO] Saving chunks
+2012-07-04 12:06:43 [INFO] Stopping server
+2012-07-04 12:06:43 [INFO] Saving chunks
+2012-07-04 12:55:23 [INFO] Starting minecraft server version 1.2.5
+2012-07-04 12:55:23 [INFO] Loading properties
+2012-07-04 12:55:23 [INFO] Starting Minecraft server on *:25565
+2012-07-04 12:55:23 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2012-07-04 12:55:23 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2012-07-04 12:55:23 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2012-07-04 12:55:23 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2012-07-04 12:55:23 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-04 12:55:24 [SEVERE] Could not load 'plugins\HardcoreMode-1.0.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NullPointerException
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:213)
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:189)
+	at net.minecraft.server.ServerConfigurationManager.<init>(ServerConfigurationManager.java:53)
+	at net.minecraft.server.MinecraftServer.init(MinecraftServer.java:166)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:432)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.NullPointerException
+	at me.dbla8888.plugins.hardcoremode.Hardcoremode.<init>(Hardcoremode.java:35)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145)
+	... 8 more
+2012-07-04 12:55:24 [INFO] [PermissionsEx] sql backend registered!
+2012-07-04 12:55:24 [INFO] [PermissionsEx] file backend registered!
+2012-07-04 12:55:24 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2012-07-04 12:55:24 [INFO] [MultiWorld] Loading MultiWorld v3.3.1
+2012-07-04 12:55:24 [INFO] [BlockDispenser] Loading BlockDispenser v0.0.1
+2012-07-04 12:55:24 [INFO] [HealingTotem] Loading HealingTotem v0.7
+2012-07-04 12:55:24 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.2
+2012-07-04 12:55:24 [INFO] [PermissionsEx] Initializing file backend
+2012-07-04 12:55:24 [INFO] [Modifyworld] Loading Modifyworld v1.19
+2012-07-04 12:55:24 [INFO] [Monster Apocalypse] Loading Monster Apocalypse v<0.0.1>
+2012-07-04 12:55:24 [INFO] [MiscellaneousPlugin] Loading MiscellaneousPlugin v1.0
+2012-07-04 12:55:24 [INFO] [ChatManager] Loading ChatManager v1.19.1
+2012-07-04 12:55:24 [INFO] Preparing level "dummyworld"
+2012-07-04 12:55:24 [INFO] Default game type: 0
+2012-07-04 12:55:24 [INFO] Preparing start region for level 0 (Seed: -6680624063628379815)
+2012-07-04 12:55:25 [INFO] Preparing spawn area: 48%
+2012-07-04 12:55:26 [INFO] [MultiWorld] Enabling MultiWorld v3.3.1
+2012-07-04 12:55:26 [INFO] Preparing start region for level 1 (Seed: 7098239163647047391)
+2012-07-04 12:55:27 [INFO] Preparing start region for level 2 (Seed: -6515781910654656367)
+2012-07-04 12:55:28 [INFO] Preparing spawn area for world15_nether, 52%
+2012-07-04 12:55:29 [INFO] Preparing start region for level 3 (Seed: 4507762429257660221)
+2012-07-04 12:55:30 [INFO] Preparing spawn area for nether, 61%
+2012-07-04 12:55:30 [INFO] Preparing start region for level 4 (Seed: -7261011693529537477)
+2012-07-04 12:55:31 [INFO] Preparing spawn area for world15, 36%
+2012-07-04 12:55:32 [INFO] Preparing spawn area for world15, 77%
+2012-07-04 12:55:33 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 12:55:33 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 12:55:33 [INFO] [MultiWorld] Enabling MultiWorld
+2012-07-04 12:55:33 [INFO] [MultiWorld] v3.3.1 enabled.
+2012-07-04 12:55:33 [INFO] [BlockDispenser] Enabling BlockDispenser v0.0.1
+2012-07-04 12:55:33 [INFO] BlockDispenser has been enabled.
+2012-07-04 12:55:33 [INFO] [HealingTotem] Enabling HealingTotem v0.7
+2012-07-04 12:55:33 [INFO] HealingTotem v0.7: is enabled!
+2012-07-04 12:55:33 [INFO] HealingTotem v0.7: Effect interval set to 2 second(s)
+2012-07-04 12:55:33 [INFO] HealingTotem v0.7: loaded 15 totem types
+2012-07-04 12:55:33 [INFO] HealingTotem v0.7: loaded 0 totems
+2012-07-04 12:55:33 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.2
+2012-07-04 12:55:33 [INFO] [PermissionsEx] Superperms support enabled.
+2012-07-04 12:55:33 [INFO] [PermissionsEx] v1.19.2 enabled
+2012-07-04 12:55:33 [INFO] [Modifyworld] Enabling Modifyworld v1.19
+2012-07-04 12:55:33 [INFO] [Modifyworld] Modifyworld enabled!
+2012-07-04 12:55:33 [INFO] [Monster Apocalypse] Enabling Monster Apocalypse v<0.0.1>
+2012-07-04 12:55:33 [INFO] Monster Apocalypse enabled.
+2012-07-04 12:55:33 [INFO] [MiscellaneousPlugin] Enabling MiscellaneousPlugin v1.0
+2012-07-04 12:55:33 [INFO] [Monster Apocalypse] Disabling Monster Apocalypse v<0.0.1>
+2012-07-04 12:55:33 [INFO] Monster Apocalypse disabled.
+2012-07-04 12:55:33 [INFO] MiscellaneousPlugin v1.0 is now enabled!
+2012-07-04 12:55:33 [INFO] [ChatManager] Enabling ChatManager v1.19.1
+2012-07-04 12:55:33 [INFO] [ChatManager] ChatManager disabled. Check config.yml!
+2012-07-04 12:55:33 [INFO] [ChatManager] Disabling ChatManager v1.19.1
+2012-07-04 12:55:33 [INFO] [ChatManager] ChatManager disabled!
+2012-07-04 12:55:33 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-04 12:55:33 [INFO] Done (9.522s)! For help, type "help" or "?"
+2012-07-04 12:56:23 [INFO] dbla8888 [/127.0.0.1:5824] logged in with entity id 6564 at ([nether] 0.0, 94.0, 0.0)
+2012-07-04 12:57:46 [INFO] dbla8888 lost connection: disconnect.quitting
+2012-07-04 12:57:46 [INFO] Connection reset
+2012-07-04 12:58:58 [INFO] CONSOLE: Stopping the server..[m
+2012-07-04 12:58:58 [INFO] Stopping server
+2012-07-04 12:58:58 [INFO] [MiscellaneousPlugin] Disabling MiscellaneousPlugin v1.0
+2012-07-04 12:58:58 [INFO] MiscellaneousPlugin v1.0 is now disabled!
+2012-07-04 12:58:58 [INFO] [Modifyworld] Disabling Modifyworld v1.19
+2012-07-04 12:58:58 [INFO] [Modifyworld] Modifyworld disabled!
+2012-07-04 12:58:58 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.2
+2012-07-04 12:58:59 [INFO] [PermissionsEx] v1.19.2 disabled successfully.
+2012-07-04 12:58:59 [INFO] [HealingTotem] Disabling HealingTotem v0.7
+2012-07-04 12:58:59 [INFO] HealingTotem v0.7: saved 0 totems
+2012-07-04 12:58:59 [INFO] HealingTotem v0.7: is disabled!
+2012-07-04 12:58:59 [INFO] [BlockDispenser] Disabling BlockDispenser v0.0.1
+2012-07-04 12:58:59 [INFO] BlockDispenser has been disabled.
+2012-07-04 12:58:59 [INFO] [MultiWorld] Disabling MultiWorld v3.3.1
+2012-07-04 12:58:59 [INFO] [MultiWorld] Disabled.
+2012-07-04 12:58:59 [INFO] Saving chunks
+2012-07-04 12:59:04 [INFO] Stopping server
+2012-07-04 12:59:04 [INFO] Saving chunks
+2012-07-04 13:00:11 [INFO] Starting minecraft server version 1.2.5
+2012-07-04 13:00:11 [INFO] Loading properties
+2012-07-04 13:00:11 [INFO] Starting Minecraft server on *:25565
+2012-07-04 13:00:11 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2012-07-04 13:00:11 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2012-07-04 13:00:11 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2012-07-04 13:00:11 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2012-07-04 13:00:12 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-04 13:00:12 [INFO] [PermissionsEx] sql backend registered!
+2012-07-04 13:00:12 [INFO] [PermissionsEx] file backend registered!
+2012-07-04 13:00:12 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2012-07-04 13:00:12 [INFO] [MultiWorld] Loading MultiWorld v3.3.1
+2012-07-04 13:00:12 [INFO] [BlockDispenser] Loading BlockDispenser v0.0.1
+2012-07-04 13:00:12 [INFO] [HealingTotem] Loading HealingTotem v0.7
+2012-07-04 13:00:12 [INFO] [HardcoreMode] Loading HardcoreMode v1.0
+2012-07-04 13:00:12 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.2
+2012-07-04 13:00:12 [INFO] [PermissionsEx] Initializing file backend
+2012-07-04 13:00:13 [INFO] [Modifyworld] Loading Modifyworld v1.19
+2012-07-04 13:00:13 [INFO] [Monster Apocalypse] Loading Monster Apocalypse v<0.0.1>
+2012-07-04 13:00:13 [INFO] [MiscellaneousPlugin] Loading MiscellaneousPlugin v1.0
+2012-07-04 13:00:13 [INFO] [ChatManager] Loading ChatManager v1.19.1
+2012-07-04 13:00:13 [INFO] Preparing level "dummyworld"
+2012-07-04 13:00:13 [INFO] Default game type: 0
+2012-07-04 13:00:13 [INFO] Preparing start region for level 0 (Seed: -6680624063628379815)
+2012-07-04 13:00:14 [INFO] Preparing spawn area: 16%
+2012-07-04 13:00:15 [INFO] Preparing spawn area: 77%
+2012-07-04 13:00:16 [INFO] [MultiWorld] Enabling MultiWorld v3.3.1
+2012-07-04 13:00:16 [INFO] Preparing start region for level 1 (Seed: 7098239163647047391)
+2012-07-04 13:00:16 [INFO] Preparing start region for level 2 (Seed: -6515781910654656367)
+2012-07-04 13:00:17 [INFO] Preparing spawn area for world15_nether, 48%
+2012-07-04 13:00:18 [INFO] Preparing start region for level 3 (Seed: 4507762429257660221)
+2012-07-04 13:00:19 [INFO] Preparing spawn area for nether, 57%
+2012-07-04 13:00:20 [INFO] Preparing start region for level 4 (Seed: -7261011693529537477)
+2012-07-04 13:00:21 [INFO] Preparing spawn area for world15, 52%
+2012-07-04 13:00:22 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 13:00:22 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 13:00:22 [INFO] [MultiWorld] Enabling MultiWorld
+2012-07-04 13:00:22 [INFO] [MultiWorld] v3.3.1 enabled.
+2012-07-04 13:00:22 [INFO] [BlockDispenser] Enabling BlockDispenser v0.0.1
+2012-07-04 13:00:22 [INFO] BlockDispenser has been enabled.
+2012-07-04 13:00:22 [INFO] [HealingTotem] Enabling HealingTotem v0.7
+2012-07-04 13:00:22 [INFO] HealingTotem v0.7: is enabled!
+2012-07-04 13:00:22 [INFO] HealingTotem v0.7: Effect interval set to 2 second(s)
+2012-07-04 13:00:22 [INFO] HealingTotem v0.7: loaded 15 totem types
+2012-07-04 13:00:22 [INFO] HealingTotem v0.7: loaded 0 totems
+2012-07-04 13:00:22 [INFO] [HardcoreMode] Enabling HardcoreMode v1.0
+2012-07-04 13:00:22 [INFO] HardcoreMode v1.0: §cworldcounter: 15
+2012-07-04 13:00:22 [INFO] HardcoreMode v1.0 is now enabled!
+2012-07-04 13:00:22 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.2
+2012-07-04 13:00:22 [INFO] [PermissionsEx] Superperms support enabled.
+2012-07-04 13:00:22 [INFO] [PermissionsEx] v1.19.2 enabled
+2012-07-04 13:00:22 [INFO] [Modifyworld] Enabling Modifyworld v1.19
+2012-07-04 13:00:22 [INFO] [Modifyworld] Modifyworld enabled!
+2012-07-04 13:00:22 [INFO] [Monster Apocalypse] Enabling Monster Apocalypse v<0.0.1>
+2012-07-04 13:00:22 [INFO] Monster Apocalypse enabled.
+2012-07-04 13:00:22 [INFO] [MiscellaneousPlugin] Enabling MiscellaneousPlugin v1.0
+2012-07-04 13:00:22 [INFO] [Monster Apocalypse] Disabling Monster Apocalypse v<0.0.1>
+2012-07-04 13:00:22 [INFO] Monster Apocalypse disabled.
+2012-07-04 13:00:22 [INFO] MiscellaneousPlugin v1.0 is now enabled!
+2012-07-04 13:00:22 [INFO] [ChatManager] Enabling ChatManager v1.19.1
+2012-07-04 13:00:23 [INFO] [ChatManager] ChatManager disabled. Check config.yml!
+2012-07-04 13:00:23 [INFO] [ChatManager] Disabling ChatManager v1.19.1
+2012-07-04 13:00:23 [INFO] [ChatManager] ChatManager disabled!
+2012-07-04 13:00:23 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-04 13:00:23 [INFO] Done (9.901s)! For help, type "help" or "?"
+2012-07-04 13:01:00 [INFO] /127.0.0.1:6009 lost connection
+2012-07-04 13:01:02 [INFO] HardcoreMode v1.0: player in nether
+2012-07-04 13:01:02 [INFO] HardcoreMode v1.0: world15
+2012-07-04 13:01:02 [INFO] HardcoreMode v1.0: deathevent: false
+2012-07-04 13:01:02 [INFO] HardcoreMode v1.0: Scheduling teleport player...
+2012-07-04 13:01:02 [INFO] dbla8888 [/127.0.0.1:6010] logged in with entity id 607 at ([nether] 29.200978497498618, 88.0, -17.558857737068998)
+2012-07-04 13:01:51 [INFO] Placed stronghold in INVALID biome at (-35, 20)
+2012-07-04 13:02:49 [INFO] [31;1mdbla8888 has died![m
+2012-07-04 13:02:50 [INFO] [32;1mUnloaded world world15![m
+2012-07-04 13:02:50 [INFO] [32;1mDeleted world world15![m
+2012-07-04 13:02:50 [INFO] [32;1mUnloaded world world15_nether![m
+2012-07-04 13:02:50 [INFO] [32;1mDeleted world world15_nether![m
+2012-07-04 13:02:50 [INFO] [32;1mUnloaded world world15_the_end![m
+2012-07-04 13:02:50 [INFO] [32;1mDeleted world world15_the_end![m
+2012-07-04 13:02:50 [INFO] HardcoreMode v1.0: Scheduling teleport all...
+2012-07-04 13:02:50 [INFO] [32;1mCreating world...[m
+2012-07-04 13:02:50 [INFO] CONSOLE: is making an new world named: world16[m
+2012-07-04 13:02:50 [INFO] Preparing start region for level 2 (Seed: 8077527744405611482)
+2012-07-04 13:02:51 [INFO] Preparing spawn area for world16, 4%
+2012-07-04 13:02:52 [INFO] Preparing spawn area for world16, 12%
+2012-07-04 13:02:52 [SEVERE] java.lang.IllegalStateException: TickNextTick list out of synch
+2012-07-04 13:02:52 [SEVERE] 	at net.minecraft.server.World.a(World.java:2380)
+2012-07-04 13:02:52 [SEVERE] 	at net.minecraft.server.World.doTick(World.java:1755)
+2012-07-04 13:02:52 [SEVERE] 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:554)
+2012-07-04 13:02:52 [SEVERE] 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+2012-07-04 13:02:52 [SEVERE] 	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+2012-07-04 13:02:52 [SEVERE] Unexpected exception
+java.lang.IllegalStateException: TickNextTick list out of synch
+	at net.minecraft.server.World.a(World.java:2380)
+	at net.minecraft.server.World.doTick(World.java:1755)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:554)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+2012-07-04 13:02:53 [INFO] Preparing spawn area for world16, 16%
+2012-07-04 13:02:54 [INFO] Preparing spawn area for world16, 20%
+2012-07-04 13:02:55 [INFO] Preparing spawn area for world16, 24%
+2012-07-04 13:02:56 [INFO] Preparing spawn area for world16, 28%
+2012-07-04 13:02:57 [INFO] Preparing spawn area for world16, 32%
+2012-07-04 13:02:58 [INFO] Preparing spawn area for world16, 36%
+2012-07-04 13:02:59 [INFO] Preparing spawn area for world16, 40%
+2012-07-04 13:03:00 [INFO] Preparing spawn area for world16, 48%
+2012-07-04 13:03:01 [INFO] Preparing spawn area for world16, 52%
+2012-07-04 13:03:02 [INFO] Preparing spawn area for world16, 57%
+2012-07-04 13:03:03 [INFO] Preparing spawn area for world16, 65%
+2012-07-04 13:03:04 [INFO] Preparing spawn area for world16, 69%
+2012-07-04 13:03:05 [INFO] Preparing spawn area for world16, 73%
+2012-07-04 13:03:07 [INFO] Preparing spawn area for world16, 81%
+2012-07-04 13:03:08 [INFO] Preparing spawn area for world16, 85%
+2012-07-04 13:03:09 [INFO] Preparing spawn area for world16, 89%
+2012-07-04 13:03:10 [INFO] Preparing spawn area for world16, 93%
+2012-07-04 13:03:11 [INFO] Preparing spawn area for world16, 97%
+2012-07-04 13:03:11 [INFO] CONSOLE: loaded an world: world16[m
+2012-07-04 13:03:11 [INFO] [32;1mSuccesfully created world16 with generator {1} and seed long8077527744405611482.[m
+2012-07-04 13:03:11 [INFO] [32;1mCreating world...[m
+2012-07-04 13:03:11 [INFO] CONSOLE: is making an new world named: world16_nether[m
+2012-07-04 13:03:11 [INFO] Preparing start region for level 3 (Seed: 2579690764149617233)
+2012-07-04 13:03:12 [INFO] Preparing spawn area for world16_nether, 8%
+2012-07-04 13:03:13 [INFO] Preparing spawn area for world16_nether, 12%
+2012-07-04 13:03:14 [INFO] Preparing spawn area for world16_nether, 20%
+2012-07-04 13:03:15 [INFO] Preparing spawn area for world16_nether, 24%
+2012-07-04 13:03:16 [INFO] Preparing spawn area for world16_nether, 36%
+2012-07-04 13:03:17 [INFO] Preparing spawn area for world16_nether, 40%
+2012-07-04 13:03:18 [INFO] Preparing spawn area for world16_nether, 48%
+2012-07-04 13:03:19 [INFO] Preparing spawn area for world16_nether, 56%
+2012-07-04 13:03:20 [INFO] Preparing spawn area for world16_nether, 65%
+2012-07-04 13:03:21 [INFO] Preparing spawn area for world16_nether, 69%
+2012-07-04 13:03:22 [INFO] Preparing spawn area for world16_nether, 77%
+2012-07-04 13:03:23 [INFO] Preparing spawn area for world16_nether, 81%
+2012-07-04 13:03:25 [INFO] Preparing spawn area for world16_nether, 81%
+2012-07-04 13:03:26 [INFO] Preparing spawn area for world16_nether, 89%
+2012-07-04 13:03:27 [INFO] Preparing spawn area for world16_nether, 97%
+2012-07-04 13:03:27 [INFO] CONSOLE: loaded an world: world16_nether[m
+2012-07-04 13:03:27 [INFO] [32;1mSuccesfully created world16_nether with generator {1} and seed long2579690764149617233.[m
+2012-07-04 13:03:27 [INFO] [32;1mCreating world...[m
+2012-07-04 13:03:27 [INFO] CONSOLE: is making an new world named: world16_the_end[m
+2012-07-04 13:03:27 [INFO] Preparing start region for level 4 (Seed: 3421421692318769784)
+2012-07-04 13:03:28 [INFO] Preparing spawn area for world16_the_end, 20%
+2012-07-04 13:03:29 [INFO] Preparing spawn area for world16_the_end, 36%
+2012-07-04 13:03:30 [INFO] Preparing spawn area for world16_the_end, 52%
+2012-07-04 13:03:31 [INFO] Preparing spawn area for world16_the_end, 73%
+2012-07-04 13:03:32 [INFO] Preparing spawn area for world16_the_end, 93%
+2012-07-04 13:03:32 [INFO] CONSOLE: loaded an world: world16_the_end[m
+2012-07-04 13:03:32 [INFO] [32;1mSuccesfully created world16_the_end with generator {1} and seed long3421421692318769784.[m
+2012-07-04 13:03:32 [INFO] [32;1mSet portal link for world {0} to world {1}[m
+2012-07-04 13:03:32 [INFO] [MultiWorld] [PortalHandler] saved!
+2012-07-04 13:03:32 [INFO] [32;1mportal link updated[m
+2012-07-04 13:03:32 [INFO] [32;1mSet portal link for world {0} to world {1}[m
+2012-07-04 13:03:32 [INFO] [MultiWorld] [PortalHandler] saved!
+2012-07-04 13:03:32 [INFO] [32;1mportal link updated[m
+2012-07-04 13:04:18 [INFO] CONSOLE: Stopping the server..[m
+2012-07-04 13:04:18 [INFO] Stopping server
+2012-07-04 13:04:18 [INFO] [MiscellaneousPlugin] Disabling MiscellaneousPlugin v1.0
+2012-07-04 13:04:18 [INFO] MiscellaneousPlugin v1.0 is now disabled!
+2012-07-04 13:04:18 [INFO] [Modifyworld] Disabling Modifyworld v1.19
+2012-07-04 13:04:18 [INFO] [Modifyworld] Modifyworld disabled!
+2012-07-04 13:04:18 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.2
+2012-07-04 13:04:18 [INFO] [PermissionsEx] v1.19.2 disabled successfully.
+2012-07-04 13:04:18 [INFO] [HardcoreMode] Disabling HardcoreMode v1.0
+2012-07-04 13:04:18 [INFO] HardcoreMode v1.0 is now disabled!
+2012-07-04 13:04:18 [INFO] [HealingTotem] Disabling HealingTotem v0.7
+2012-07-04 13:04:18 [INFO] HealingTotem v0.7: saved 0 totems
+2012-07-04 13:04:18 [INFO] HealingTotem v0.7: is disabled!
+2012-07-04 13:04:18 [INFO] [BlockDispenser] Disabling BlockDispenser v0.0.1
+2012-07-04 13:04:18 [INFO] BlockDispenser has been disabled.
+2012-07-04 13:04:18 [INFO] [MultiWorld] Disabling MultiWorld v3.3.1
+2012-07-04 13:04:18 [INFO] [MultiWorld] Disabled.
+2012-07-04 13:04:18 [INFO] Saving chunks
+2012-07-04 13:04:59 [INFO] Stopping server
+2012-07-04 13:04:59 [INFO] Saving chunks
+2012-07-04 13:06:44 [INFO] Starting minecraft server version 1.2.5
+2012-07-04 13:06:44 [INFO] Loading properties
+2012-07-04 13:06:44 [INFO] Starting Minecraft server on *:25565
+2012-07-04 13:06:44 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2012-07-04 13:06:44 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2012-07-04 13:06:44 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2012-07-04 13:06:44 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2012-07-04 13:06:45 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-04 13:06:45 [INFO] [PermissionsEx] sql backend registered!
+2012-07-04 13:06:45 [INFO] [PermissionsEx] file backend registered!
+2012-07-04 13:06:45 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2012-07-04 13:06:45 [INFO] [MultiWorld] Loading MultiWorld v3.3.1
+2012-07-04 13:06:45 [INFO] [BlockDispenser] Loading BlockDispenser v0.0.1
+2012-07-04 13:06:45 [INFO] [HealingTotem] Loading HealingTotem v0.7
+2012-07-04 13:06:45 [INFO] [HardcoreMode] Loading HardcoreMode v1.0
+2012-07-04 13:06:45 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.2
+2012-07-04 13:06:45 [INFO] [PermissionsEx] Initializing file backend
+2012-07-04 13:06:45 [INFO] [Modifyworld] Loading Modifyworld v1.19
+2012-07-04 13:06:45 [INFO] [Monster Apocalypse] Loading Monster Apocalypse v<0.0.1>
+2012-07-04 13:06:45 [INFO] [MiscellaneousPlugin] Loading MiscellaneousPlugin v1.0
+2012-07-04 13:06:45 [INFO] [ChatManager] Loading ChatManager v1.19.1
+2012-07-04 13:06:45 [INFO] Preparing level "dummyworld"
+2012-07-04 13:06:45 [INFO] Default game type: 0
+2012-07-04 13:06:46 [INFO] Preparing start region for level 0 (Seed: -6680624063628379815)
+2012-07-04 13:06:47 [INFO] Preparing spawn area: 20%
+2012-07-04 13:06:48 [INFO] Preparing spawn area: 89%
+2012-07-04 13:06:48 [INFO] [MultiWorld] Enabling MultiWorld v3.3.1
+2012-07-04 13:06:48 [INFO] Preparing start region for level 1 (Seed: 8077527744405611482)
+2012-07-04 13:06:49 [INFO] Preparing spawn area for world16, 32%
+2012-07-04 13:06:50 [INFO] Preparing spawn area for world16, 65%
+2012-07-04 13:06:51 [INFO] Preparing spawn area for world16, 93%
+2012-07-04 13:06:51 [INFO] Preparing start region for level 2 (Seed: 4507762429257660221)
+2012-07-04 13:06:52 [INFO] Preparing spawn area for nether, 48%
+2012-07-04 13:06:53 [INFO] Preparing spawn area for nether, 97%
+2012-07-04 13:06:54 [INFO] Preparing start region for level 3 (Seed: 3421421692318769784)
+2012-07-04 13:06:54 [INFO] Preparing start region for level 4 (Seed: 2579690764149617233)
+2012-07-04 13:06:55 [INFO] Preparing spawn area for world16_nether, 24%
+2012-07-04 13:06:56 [INFO] Preparing spawn area for world16_nether, 77%
+2012-07-04 13:06:57 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 13:06:57 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 13:06:57 [INFO] [MultiWorld] Enabling MultiWorld
+2012-07-04 13:06:57 [INFO] [MultiWorld] v3.3.1 enabled.
+2012-07-04 13:06:57 [INFO] [BlockDispenser] Enabling BlockDispenser v0.0.1
+2012-07-04 13:06:57 [INFO] BlockDispenser has been enabled.
+2012-07-04 13:06:57 [INFO] [HealingTotem] Enabling HealingTotem v0.7
+2012-07-04 13:06:57 [INFO] HealingTotem v0.7: is enabled!
+2012-07-04 13:06:57 [INFO] HealingTotem v0.7: Effect interval set to 2 second(s)
+2012-07-04 13:06:57 [INFO] HealingTotem v0.7: loaded 15 totem types
+2012-07-04 13:06:57 [INFO] HealingTotem v0.7: loaded 0 totems
+2012-07-04 13:06:57 [INFO] [HardcoreMode] Enabling HardcoreMode v1.0
+2012-07-04 13:06:57 [INFO] HardcoreMode v1.0: §cworldcounter: 16
+2012-07-04 13:06:57 [INFO] HardcoreMode v1.0 is now enabled!
+2012-07-04 13:06:57 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.2
+2012-07-04 13:06:57 [INFO] [PermissionsEx] Superperms support enabled.
+2012-07-04 13:06:57 [INFO] [PermissionsEx] v1.19.2 enabled
+2012-07-04 13:06:57 [INFO] [Modifyworld] Enabling Modifyworld v1.19
+2012-07-04 13:06:57 [INFO] [Modifyworld] Modifyworld enabled!
+2012-07-04 13:06:57 [INFO] [Monster Apocalypse] Enabling Monster Apocalypse v<0.0.1>
+2012-07-04 13:06:58 [INFO] Monster Apocalypse enabled.
+2012-07-04 13:06:58 [INFO] [MiscellaneousPlugin] Enabling MiscellaneousPlugin v1.0
+2012-07-04 13:06:58 [INFO] [Monster Apocalypse] Disabling Monster Apocalypse v<0.0.1>
+2012-07-04 13:06:58 [INFO] Monster Apocalypse disabled.
+2012-07-04 13:06:58 [INFO] MiscellaneousPlugin v1.0 is now enabled!
+2012-07-04 13:06:58 [INFO] [ChatManager] Enabling ChatManager v1.19.1
+2012-07-04 13:06:58 [INFO] [ChatManager] ChatManager disabled. Check config.yml!
+2012-07-04 13:06:58 [INFO] [ChatManager] Disabling ChatManager v1.19.1
+2012-07-04 13:06:58 [INFO] [ChatManager] ChatManager disabled!
+2012-07-04 13:06:58 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-04 13:06:58 [INFO] Done (12.807s)! For help, type "help" or "?"
+2012-07-04 13:07:06 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:12:05 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:12:51 [INFO] CONSOLE: Stopping the server..[m
+2012-07-04 13:12:51 [INFO] Stopping server
+2012-07-04 13:12:51 [INFO] [MiscellaneousPlugin] Disabling MiscellaneousPlugin v1.0
+2012-07-04 13:12:51 [INFO] MiscellaneousPlugin v1.0 is now disabled!
+2012-07-04 13:12:51 [INFO] [Modifyworld] Disabling Modifyworld v1.19
+2012-07-04 13:12:51 [INFO] [Modifyworld] Modifyworld disabled!
+2012-07-04 13:12:51 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.2
+2012-07-04 13:12:51 [INFO] [PermissionsEx] v1.19.2 disabled successfully.
+2012-07-04 13:12:51 [INFO] [HardcoreMode] Disabling HardcoreMode v1.0
+2012-07-04 13:12:51 [INFO] HardcoreMode v1.0 is now disabled!
+2012-07-04 13:12:51 [INFO] [HealingTotem] Disabling HealingTotem v0.7
+2012-07-04 13:12:51 [INFO] HealingTotem v0.7: saved 0 totems
+2012-07-04 13:12:51 [INFO] HealingTotem v0.7: is disabled!
+2012-07-04 13:12:51 [INFO] [BlockDispenser] Disabling BlockDispenser v0.0.1
+2012-07-04 13:12:51 [INFO] BlockDispenser has been disabled.
+2012-07-04 13:12:51 [INFO] [MultiWorld] Disabling MultiWorld v3.3.1
+2012-07-04 13:12:51 [INFO] [MultiWorld] Disabled.
+2012-07-04 13:12:51 [INFO] Saving chunks
+2012-07-04 13:12:55 [INFO] Stopping server
+2012-07-04 13:12:55 [INFO] Saving chunks
+2012-07-04 13:13:53 [INFO] Starting minecraft server version 1.2.5
+2012-07-04 13:13:53 [INFO] Loading properties
+2012-07-04 13:13:53 [INFO] Starting Minecraft server on *:25565
+2012-07-04 13:13:53 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2012-07-04 13:13:53 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2012-07-04 13:13:53 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2012-07-04 13:13:53 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2012-07-04 13:13:53 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-04 13:13:54 [INFO] [PermissionsEx] sql backend registered!
+2012-07-04 13:13:54 [INFO] [PermissionsEx] file backend registered!
+2012-07-04 13:13:54 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2012-07-04 13:13:54 [INFO] [MultiWorld] Loading MultiWorld v3.3.1
+2012-07-04 13:13:54 [INFO] [BlockDispenser] Loading BlockDispenser v0.0.1
+2012-07-04 13:13:54 [INFO] [HealingTotem] Loading HealingTotem v0.7
+2012-07-04 13:13:54 [INFO] [HardcoreMode] Loading HardcoreMode v1.0
+2012-07-04 13:13:54 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.2
+2012-07-04 13:13:54 [INFO] [PermissionsEx] Initializing file backend
+2012-07-04 13:13:54 [INFO] [Modifyworld] Loading Modifyworld v1.19
+2012-07-04 13:13:54 [INFO] [Monster Apocalypse] Loading Monster Apocalypse v<0.0.1>
+2012-07-04 13:13:54 [INFO] [MiscellaneousPlugin] Loading MiscellaneousPlugin v1.0
+2012-07-04 13:13:54 [INFO] [ChatManager] Loading ChatManager v1.19.1
+2012-07-04 13:13:54 [INFO] Preparing level "dummyworld"
+2012-07-04 13:13:54 [INFO] Default game type: 0
+2012-07-04 13:13:55 [INFO] Preparing start region for level 0 (Seed: -6680624063628379815)
+2012-07-04 13:13:56 [INFO] Preparing spawn area: 16%
+2012-07-04 13:13:57 [INFO] Preparing spawn area: 77%
+2012-07-04 13:13:57 [INFO] [MultiWorld] Enabling MultiWorld v3.3.1
+2012-07-04 13:13:57 [INFO] Preparing start region for level 1 (Seed: 8077527744405611482)
+2012-07-04 13:13:58 [INFO] Preparing spawn area for world16, 48%
+2012-07-04 13:13:59 [INFO] Preparing spawn area for world16, 97%
+2012-07-04 13:13:59 [INFO] Preparing start region for level 2 (Seed: 4507762429257660221)
+2012-07-04 13:14:00 [INFO] Preparing spawn area for nether, 52%
+2012-07-04 13:14:01 [INFO] Preparing start region for level 3 (Seed: 3421421692318769784)
+2012-07-04 13:14:01 [INFO] Preparing start region for level 4 (Seed: 2579690764149617233)
+2012-07-04 13:14:02 [INFO] Preparing spawn area for world16_nether, 40%
+2012-07-04 13:14:03 [INFO] Preparing spawn area for world16_nether, 97%
+2012-07-04 13:14:04 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 13:14:04 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 13:14:04 [INFO] [MultiWorld] Enabling MultiWorld
+2012-07-04 13:14:04 [INFO] [MultiWorld] v3.3.1 enabled.
+2012-07-04 13:14:04 [INFO] [BlockDispenser] Enabling BlockDispenser v0.0.1
+2012-07-04 13:14:04 [INFO] BlockDispenser has been enabled.
+2012-07-04 13:14:04 [INFO] [HealingTotem] Enabling HealingTotem v0.7
+2012-07-04 13:14:04 [INFO] HealingTotem v0.7: is enabled!
+2012-07-04 13:14:04 [INFO] HealingTotem v0.7: Effect interval set to 2 second(s)
+2012-07-04 13:14:04 [INFO] HealingTotem v0.7: loaded 15 totem types
+2012-07-04 13:14:04 [INFO] HealingTotem v0.7: loaded 0 totems
+2012-07-04 13:14:04 [INFO] [HardcoreMode] Enabling HardcoreMode v1.0
+2012-07-04 13:14:04 [INFO] HardcoreMode v1.0: §cworldcounter: 16
+2012-07-04 13:14:04 [INFO] HardcoreMode v1.0 is now enabled!
+2012-07-04 13:14:04 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.2
+2012-07-04 13:14:04 [INFO] [PermissionsEx] Superperms support enabled.
+2012-07-04 13:14:04 [INFO] [PermissionsEx] v1.19.2 enabled
+2012-07-04 13:14:04 [INFO] [Modifyworld] Enabling Modifyworld v1.19
+2012-07-04 13:14:04 [INFO] [Modifyworld] Modifyworld enabled!
+2012-07-04 13:14:04 [INFO] [Monster Apocalypse] Enabling Monster Apocalypse v<0.0.1>
+2012-07-04 13:14:04 [INFO] Monster Apocalypse enabled.
+2012-07-04 13:14:04 [INFO] [MiscellaneousPlugin] Enabling MiscellaneousPlugin v1.0
+2012-07-04 13:14:04 [INFO] [Monster Apocalypse] Disabling Monster Apocalypse v<0.0.1>
+2012-07-04 13:14:04 [INFO] Monster Apocalypse disabled.
+2012-07-04 13:14:04 [INFO] MiscellaneousPlugin v1.0 is now enabled!
+2012-07-04 13:14:04 [INFO] [ChatManager] Enabling ChatManager v1.19.1
+2012-07-04 13:14:04 [INFO] [ChatManager] ChatManager disabled. Check config.yml!
+2012-07-04 13:14:04 [INFO] [ChatManager] Disabling ChatManager v1.19.1
+2012-07-04 13:14:04 [INFO] [ChatManager] ChatManager disabled!
+2012-07-04 13:14:04 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-04 13:14:04 [INFO] Done (10.358s)! For help, type "help" or "?"
+2012-07-04 13:14:09 [INFO] HardcoreMode v1.0: player in nether
+2012-07-04 13:14:09 [INFO] HardcoreMode v1.0: world16
+2012-07-04 13:14:09 [INFO] HardcoreMode v1.0: deathevent: false
+2012-07-04 13:14:09 [INFO] HardcoreMode v1.0: Scheduling teleport player...
+2012-07-04 13:14:09 [INFO] dbla8888 [/127.0.0.1:6308] logged in with entity id 523 at ([nether] 0.0, 94.0, 0.0)
+2012-07-04 13:14:23 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:15:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:15:13 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:00 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:04 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:07 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:13 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:23 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:25 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:31 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:34 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:43 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:16:45 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:17:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:17:30 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:18:03 [INFO] [31;1mdbla8888 has died![m
+2012-07-04 13:18:04 [INFO] [32;1mUnloaded world world16![m
+2012-07-04 13:18:04 [INFO] [32;1mDeleted world world16![m
+2012-07-04 13:18:04 [INFO] [32;1mUnloaded world world16_nether![m
+2012-07-04 13:18:04 [INFO] [32;1mDeleted world world16_nether![m
+2012-07-04 13:18:04 [INFO] [32;1mUnloaded world world16_the_end![m
+2012-07-04 13:18:04 [INFO] [32;1mDeleted world world16_the_end![m
+2012-07-04 13:18:04 [INFO] [32;1mCreating world...[m
+2012-07-04 13:18:04 [INFO] CONSOLE: is making an new world named: world17[m
+2012-07-04 13:18:04 [INFO] Preparing start region for level 2 (Seed: -949185756431876558)
+2012-07-04 13:18:05 [INFO] Preparing spawn area for world17, 8%
+2012-07-04 13:18:06 [INFO] Preparing spawn area for world17, 8%
+2012-07-04 13:18:07 [INFO] Preparing spawn area for world17, 16%
+2012-07-04 13:18:08 [INFO] Preparing spawn area for world17, 20%
+2012-07-04 13:18:09 [INFO] Preparing spawn area for world17, 24%
+2012-07-04 13:18:10 [INFO] Preparing spawn area for world17, 28%
+2012-07-04 13:18:11 [INFO] Preparing spawn area for world17, 32%
+2012-07-04 13:18:12 [INFO] Preparing spawn area for world17, 36%
+2012-07-04 13:18:13 [INFO] Preparing spawn area for world17, 40%
+2012-07-04 13:18:14 [INFO] Preparing spawn area for world17, 44%
+2012-07-04 13:18:15 [INFO] Preparing spawn area for world17, 52%
+2012-07-04 13:18:16 [INFO] Preparing spawn area for world17, 57%
+2012-07-04 13:18:17 [INFO] Preparing spawn area for world17, 65%
+2012-07-04 13:18:18 [INFO] Preparing spawn area for world17, 69%
+2012-07-04 13:18:19 [INFO] Preparing spawn area for world17, 77%
+2012-07-04 13:18:20 [INFO] Preparing spawn area for world17, 81%
+2012-07-04 13:18:21 [INFO] Preparing spawn area for world17, 89%
+2012-07-04 13:18:22 [INFO] Preparing spawn area for world17, 93%
+2012-07-04 13:18:23 [INFO] Preparing spawn area for world17, 97%
+2012-07-04 13:18:23 [INFO] CONSOLE: loaded an world: world17[m
+2012-07-04 13:18:23 [INFO] [32;1mSuccesfully created world17 with generator {1} and seed -long949185756431876558.[m
+2012-07-04 13:18:23 [INFO] [32;1mCreating world...[m
+2012-07-04 13:18:24 [INFO] CONSOLE: is making an new world named: world17_nether[m
+2012-07-04 13:18:24 [INFO] Preparing start region for level 3 (Seed: -4109163237987938608)
+2012-07-04 13:18:25 [INFO] Preparing spawn area for world17_nether, 8%
+2012-07-04 13:18:26 [INFO] Preparing spawn area for world17_nether, 12%
+2012-07-04 13:18:27 [INFO] Preparing spawn area for world17_nether, 16%
+2012-07-04 13:18:28 [INFO] Preparing spawn area for world17_nether, 24%
+2012-07-04 13:18:29 [INFO] Preparing spawn area for world17_nether, 32%
+2012-07-04 13:18:30 [INFO] Preparing spawn area for world17_nether, 40%
+2012-07-04 13:18:31 [INFO] Preparing spawn area for world17_nether, 40%
+2012-07-04 13:18:32 [INFO] Preparing spawn area for world17_nether, 48%
+2012-07-04 13:18:33 [INFO] Preparing spawn area for world17_nether, 53%
+2012-07-04 13:18:34 [INFO] Preparing spawn area for world17_nether, 65%
+2012-07-04 13:18:36 [INFO] Preparing spawn area for world17_nether, 73%
+2012-07-04 13:18:37 [INFO] Preparing spawn area for world17_nether, 81%
+2012-07-04 13:18:38 [INFO] Preparing spawn area for world17_nether, 89%
+2012-07-04 13:18:39 [INFO] Preparing spawn area for world17_nether, 93%
+2012-07-04 13:18:40 [INFO] CONSOLE: loaded an world: world17_nether[m
+2012-07-04 13:18:40 [INFO] [32;1mSuccesfully created world17_nether with generator {1} and seed -long4109163237987938608.[m
+2012-07-04 13:18:40 [INFO] [32;1mCreating world...[m
+2012-07-04 13:18:40 [INFO] CONSOLE: is making an new world named: world17_the_end[m
+2012-07-04 13:18:40 [INFO] Preparing start region for level 4 (Seed: -8711584541232100002)
+2012-07-04 13:18:41 [INFO] Preparing spawn area for world17_the_end, 16%
+2012-07-04 13:18:42 [INFO] Preparing spawn area for world17_the_end, 36%
+2012-07-04 13:18:43 [INFO] Preparing spawn area for world17_the_end, 52%
+2012-07-04 13:18:44 [INFO] Preparing spawn area for world17_the_end, 65%
+2012-07-04 13:18:45 [INFO] Preparing spawn area for world17_the_end, 85%
+2012-07-04 13:18:45 [INFO] CONSOLE: loaded an world: world17_the_end[m
+2012-07-04 13:18:45 [INFO] [32;1mSuccesfully created world17_the_end with generator {1} and seed -long8711584541232100002.[m
+2012-07-04 13:18:45 [INFO] [32;1mSet portal link for world {0} to world {1}[m
+2012-07-04 13:18:45 [INFO] [MultiWorld] [PortalHandler] saved!
+2012-07-04 13:18:45 [INFO] [32;1mportal link updated[m
+2012-07-04 13:18:46 [INFO] [32;1mSet portal link for world {0} to world {1}[m
+2012-07-04 13:18:46 [INFO] [MultiWorld] [PortalHandler] saved!
+2012-07-04 13:18:46 [INFO] [32;1mportal link updated[m
+2012-07-04 13:18:46 [INFO] HardcoreMode v1.0: Scheduling teleport all...
+2012-07-04 13:18:46 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:18:50 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:20:58 [INFO] dbla8888 lost connection: disconnect.quitting
+2012-07-04 13:20:58 [INFO] Connection reset
+2012-07-04 13:24:15 [INFO] HardcoreMode v1.0: player in world17
+2012-07-04 13:24:15 [INFO] HardcoreMode v1.0: world17
+2012-07-04 13:24:15 [INFO] HardcoreMode v1.0: deathevent: false
+2012-07-04 13:24:15 [INFO] dbla8888 [/127.0.0.1:6529] logged in with entity id 12276 at ([world17] -199.62716045133698, 71.0, 272.87156246044503)
+2012-07-04 13:24:35 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:24:38 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:24:38 [INFO] -17, 41
+2012-07-04 13:24:40 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:25:08 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:25:34 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:25:37 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:25:41 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:25:44 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:25:48 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:00 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:02 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:06 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:18 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:21 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:29 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:46 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:48 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:26:53 [INFO] Connection reset
+2012-07-04 13:26:53 [INFO] dbla8888 lost connection: disconnect.quitting
+2012-07-04 13:28:18 [INFO] CONSOLE: Stopping the server..[m
+2012-07-04 13:28:18 [INFO] Stopping server
+2012-07-04 13:28:18 [INFO] [MiscellaneousPlugin] Disabling MiscellaneousPlugin v1.0
+2012-07-04 13:28:18 [INFO] MiscellaneousPlugin v1.0 is now disabled!
+2012-07-04 13:28:18 [INFO] [Modifyworld] Disabling Modifyworld v1.19
+2012-07-04 13:28:18 [INFO] [Modifyworld] Modifyworld disabled!
+2012-07-04 13:28:18 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.2
+2012-07-04 13:28:18 [INFO] [PermissionsEx] v1.19.2 disabled successfully.
+2012-07-04 13:28:18 [INFO] [HardcoreMode] Disabling HardcoreMode v1.0
+2012-07-04 13:28:18 [INFO] HardcoreMode v1.0 is now disabled!
+2012-07-04 13:28:18 [INFO] [HealingTotem] Disabling HealingTotem v0.7
+2012-07-04 13:28:18 [INFO] HealingTotem v0.7: saved 0 totems
+2012-07-04 13:28:18 [INFO] HealingTotem v0.7: is disabled!
+2012-07-04 13:28:18 [INFO] [BlockDispenser] Disabling BlockDispenser v0.0.1
+2012-07-04 13:28:18 [INFO] BlockDispenser has been disabled.
+2012-07-04 13:28:18 [INFO] [MultiWorld] Disabling MultiWorld v3.3.1
+2012-07-04 13:28:18 [INFO] [MultiWorld] Disabled.
+2012-07-04 13:28:18 [INFO] Saving chunks
+2012-07-04 13:28:20 [INFO] Stopping server
+2012-07-04 13:28:20 [INFO] Saving chunks
+2012-07-04 13:30:46 [INFO] Starting minecraft server version 1.2.5
+2012-07-04 13:30:46 [INFO] Loading properties
+2012-07-04 13:30:46 [INFO] Starting Minecraft server on *:25565
+2012-07-04 13:30:46 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2012-07-04 13:30:46 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2012-07-04 13:30:46 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2012-07-04 13:30:46 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2012-07-04 13:30:46 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-04 13:30:46 [INFO] [PermissionsEx] sql backend registered!
+2012-07-04 13:30:46 [INFO] [PermissionsEx] file backend registered!
+2012-07-04 13:30:46 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2012-07-04 13:30:46 [INFO] [MultiWorld] Loading MultiWorld v3.3.1
+2012-07-04 13:30:46 [INFO] [BlockDispenser] Loading BlockDispenser v0.0.1
+2012-07-04 13:30:46 [INFO] [HealingTotem] Loading HealingTotem v0.7
+2012-07-04 13:30:46 [INFO] [HardcoreMode] Loading HardcoreMode v1.0
+2012-07-04 13:30:46 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.2
+2012-07-04 13:30:47 [INFO] [PermissionsEx] Initializing file backend
+2012-07-04 13:30:47 [INFO] [Modifyworld] Loading Modifyworld v1.19
+2012-07-04 13:30:47 [INFO] [Monster Apocalypse] Loading Monster Apocalypse v<0.0.1>
+2012-07-04 13:30:47 [INFO] [MiscellaneousPlugin] Loading MiscellaneousPlugin v1.0
+2012-07-04 13:30:47 [INFO] [ChatManager] Loading ChatManager v1.19.1
+2012-07-04 13:30:47 [INFO] Preparing level "dummyworld"
+2012-07-04 13:30:47 [INFO] Default game type: 0
+2012-07-04 13:30:47 [INFO] Preparing start region for level 0 (Seed: -6680624063628379815)
+2012-07-04 13:30:48 [INFO] Preparing spawn area: 28%
+2012-07-04 13:30:49 [INFO] Preparing spawn area: 93%
+2012-07-04 13:30:49 [INFO] [MultiWorld] Enabling MultiWorld v3.3.1
+2012-07-04 13:30:49 [INFO] Preparing start region for level 1 (Seed: -4109163237987938608)
+2012-07-04 13:30:50 [INFO] Preparing spawn area for world17_nether, 52%
+2012-07-04 13:30:51 [INFO] Preparing start region for level 2 (Seed: -8711584541232100002)
+2012-07-04 13:30:52 [INFO] Preparing start region for level 3 (Seed: -949185756431876558)
+2012-07-04 13:30:53 [INFO] Preparing spawn area for world17, 69%
+2012-07-04 13:30:53 [INFO] Preparing start region for level 4 (Seed: 4507762429257660221)
+2012-07-04 13:30:54 [INFO] Preparing spawn area for nether, 52%
+2012-07-04 13:30:55 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 13:30:55 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 13:30:55 [INFO] [MultiWorld] Enabling MultiWorld
+2012-07-04 13:30:55 [INFO] [MultiWorld] v3.3.1 enabled.
+2012-07-04 13:30:55 [INFO] [BlockDispenser] Enabling BlockDispenser v0.0.1
+2012-07-04 13:30:55 [INFO] BlockDispenser has been enabled.
+2012-07-04 13:30:55 [INFO] [HealingTotem] Enabling HealingTotem v0.7
+2012-07-04 13:30:55 [INFO] HealingTotem v0.7: is enabled!
+2012-07-04 13:30:55 [INFO] HealingTotem v0.7: Effect interval set to 2 second(s)
+2012-07-04 13:30:55 [INFO] HealingTotem v0.7: loaded 15 totem types
+2012-07-04 13:30:55 [INFO] HealingTotem v0.7: loaded 0 totems
+2012-07-04 13:30:55 [INFO] [HardcoreMode] Enabling HardcoreMode v1.0
+2012-07-04 13:30:55 [INFO] HardcoreMode v1.0: §cworldcounter: 17
+2012-07-04 13:30:55 [INFO] HardcoreMode v1.0 is now enabled!
+2012-07-04 13:30:55 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.2
+2012-07-04 13:30:55 [INFO] [PermissionsEx] Superperms support enabled.
+2012-07-04 13:30:55 [INFO] [PermissionsEx] v1.19.2 enabled
+2012-07-04 13:30:55 [INFO] [Modifyworld] Enabling Modifyworld v1.19
+2012-07-04 13:30:55 [INFO] [Modifyworld] Modifyworld enabled!
+2012-07-04 13:30:55 [INFO] [Monster Apocalypse] Enabling Monster Apocalypse v<0.0.1>
+2012-07-04 13:30:56 [INFO] Monster Apocalypse enabled.
+2012-07-04 13:30:56 [INFO] [MiscellaneousPlugin] Enabling MiscellaneousPlugin v1.0
+2012-07-04 13:30:56 [INFO] [Monster Apocalypse] Disabling Monster Apocalypse v<0.0.1>
+2012-07-04 13:30:56 [INFO] Monster Apocalypse disabled.
+2012-07-04 13:30:56 [INFO] MiscellaneousPlugin v1.0 is now enabled!
+2012-07-04 13:30:56 [INFO] [ChatManager] Enabling ChatManager v1.19.1
+2012-07-04 13:30:56 [INFO] [ChatManager] ChatManager disabled. Check config.yml!
+2012-07-04 13:30:56 [INFO] [ChatManager] Disabling ChatManager v1.19.1
+2012-07-04 13:30:56 [INFO] [ChatManager] ChatManager disabled!
+2012-07-04 13:30:56 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-04 13:30:56 [INFO] Done (9.088s)! For help, type "help" or "?"
+2012-07-04 13:31:09 [INFO] HardcoreMode v1.0: player in world17
+2012-07-04 13:31:09 [INFO] HardcoreMode v1.0: world17
+2012-07-04 13:31:09 [INFO] HardcoreMode v1.0: deathevent: false
+2012-07-04 13:31:09 [INFO] dbla8888 [/127.0.0.1:6678] logged in with entity id 658 at ([world17] -14.019767407673204, 74.0, 621.8939845762042)
+2012-07-04 13:31:19 [INFO] -17, 41
+2012-07-04 13:33:15 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:38:42 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:42:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:45:27 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:48:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:48:38 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:50:12 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:50:29 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:50:47 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:51:25 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:51:51 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:52:57 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:54:41 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:55:25 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:55:31 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:55:33 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:55:43 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:55:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:58:18 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 13:59:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:04:07 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:04:19 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:04:27 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:04:29 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:06:59 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:07:04 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:08:18 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:08:22 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:10:15 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:10:25 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:11:11 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:11:41 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:11:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:11:57 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:12:00 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:12:25 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:12:32 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:13:08 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:15:11 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:15:16 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:15:45 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:15:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:18:11 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:18:13 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:18:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:18:31 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:18:44 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:19:17 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:19:19 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:19:27 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:19:38 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:20:18 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:21:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:22:08 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:22:50 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:22:55 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:22:58 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:23:00 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:23:03 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:23:39 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:24:09 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:24:41 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:24:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:25:30 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:25:47 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:27:47 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:27:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:29:08 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:30:01 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:31:43 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:31:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:32:35 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:35:56 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:38:57 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:39:07 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:39:12 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:39:15 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:39:17 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:41:40 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:42:06 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:42:18 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:42:21 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:42:25 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:43:21 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:45:58 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:46:33 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:47:30 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:47:33 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:47:35 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:47:39 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:47:42 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:47:57 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:48:01 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:51:37 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:53:09 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:55:29 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:56:01 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:56:37 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:56:40 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:56:55 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:57:02 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:57:43 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:57:46 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:57:50 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:57:53 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:57:55 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:58:03 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:59:22 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 14:59:25 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 15:02:29 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2012-07-04 15:02:40 [INFO] dbla8888 lost connection: disconnect.quitting
+2012-07-04 15:02:40 [INFO] Connection reset
+2012-07-04 15:02:51 [INFO] CONSOLE: Stopping the server..[m
+2012-07-04 15:02:51 [INFO] Stopping server
+2012-07-04 15:02:51 [INFO] [MiscellaneousPlugin] Disabling MiscellaneousPlugin v1.0
+2012-07-04 15:02:51 [INFO] MiscellaneousPlugin v1.0 is now disabled!
+2012-07-04 15:02:51 [INFO] [Modifyworld] Disabling Modifyworld v1.19
+2012-07-04 15:02:51 [INFO] [Modifyworld] Modifyworld disabled!
+2012-07-04 15:02:51 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.2
+2012-07-04 15:02:51 [INFO] [PermissionsEx] v1.19.2 disabled successfully.
+2012-07-04 15:02:51 [INFO] [HardcoreMode] Disabling HardcoreMode v1.0
+2012-07-04 15:02:51 [INFO] HardcoreMode v1.0 is now disabled!
+2012-07-04 15:02:51 [INFO] [HealingTotem] Disabling HealingTotem v0.7
+2012-07-04 15:02:51 [INFO] HealingTotem v0.7: saved 0 totems
+2012-07-04 15:02:51 [INFO] HealingTotem v0.7: is disabled!
+2012-07-04 15:02:51 [INFO] [BlockDispenser] Disabling BlockDispenser v0.0.1
+2012-07-04 15:02:51 [INFO] BlockDispenser has been disabled.
+2012-07-04 15:02:51 [INFO] [MultiWorld] Disabling MultiWorld v3.3.1
+2012-07-04 15:02:51 [INFO] [MultiWorld] Disabled.
+2012-07-04 15:02:51 [INFO] Saving chunks
+2012-07-04 15:02:56 [INFO] Stopping server
+2012-07-04 15:02:56 [INFO] Saving chunks
+2012-07-04 15:18:49 [INFO] Starting minecraft server version 1.2.5
+2012-07-04 15:18:49 [INFO] Loading properties
+2012-07-04 15:18:49 [INFO] Starting Minecraft server on *:25565
+2012-07-04 15:18:49 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2012-07-04 15:18:49 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2012-07-04 15:18:49 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2012-07-04 15:18:49 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2012-07-04 15:18:49 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R4.0-b2222jnks (MC: 1.2.5) (Implementing API version 1.2.5-R4.0)
+2012-07-04 15:18:50 [INFO] [PermissionsEx] sql backend registered!
+2012-07-04 15:18:50 [INFO] [PermissionsEx] file backend registered!
+2012-07-04 15:18:50 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2012-07-04 15:18:50 [INFO] [MultiWorld] Loading MultiWorld v3.3.1
+2012-07-04 15:18:50 [INFO] [BlockDispenser] Loading BlockDispenser v0.0.1
+2012-07-04 15:18:50 [INFO] [HealingTotem] Loading HealingTotem v0.7
+2012-07-04 15:18:50 [INFO] [HardcoreMode] Loading HardcoreMode v1.0
+2012-07-04 15:18:50 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.2
+2012-07-04 15:18:50 [INFO] [PermissionsEx] Initializing file backend
+2012-07-04 15:18:50 [INFO] [Modifyworld] Loading Modifyworld v1.19
+2012-07-04 15:18:50 [INFO] [Monster Apocalypse] Loading Monster Apocalypse v<0.0.1>
+2012-07-04 15:18:50 [INFO] [MiscellaneousPlugin] Loading MiscellaneousPlugin v1.0
+2012-07-04 15:18:50 [INFO] Preparing level "dummyworld"
+2012-07-04 15:18:50 [INFO] Default game type: 0
+2012-07-04 15:18:50 [INFO] Preparing start region for level 0 (Seed: -6680624063628379815)
+2012-07-04 15:18:51 [INFO] Preparing spawn area: 44%
+2012-07-04 15:18:52 [INFO] [MultiWorld] Enabling MultiWorld v3.3.1
+2012-07-04 15:18:52 [INFO] Preparing start region for level 1 (Seed: 4507762429257660221)
+2012-07-04 15:18:53 [INFO] Preparing spawn area for nether, 73%
+2012-07-04 15:18:53 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 15:18:53 [INFO] [MultiWorld] [PortalHandler] loaded!
+2012-07-04 15:18:53 [INFO] [MultiWorld] Enabling MultiWorld
+2012-07-04 15:18:53 [INFO] [MultiWorld] v3.3.1 enabled.
+2012-07-04 15:18:53 [INFO] [BlockDispenser] Enabling BlockDispenser v0.0.1
+2012-07-04 15:18:53 [INFO] BlockDispenser has been enabled.
+2012-07-04 15:18:53 [INFO] [HealingTotem] Enabling HealingTotem v0.7
+2012-07-04 15:18:53 [INFO] HealingTotem v0.7: is enabled!
+2012-07-04 15:18:53 [INFO] HealingTotem v0.7: Effect interval set to 2 second(s)
+2012-07-04 15:18:53 [INFO] HealingTotem v0.7: loaded 15 totem types
+2012-07-04 15:18:53 [INFO] HealingTotem v0.7: loaded 0 totems
+2012-07-04 15:18:53 [INFO] [HardcoreMode] Enabling HardcoreMode v1.0
+2012-07-04 15:18:53 [INFO] HardcoreMode v1.0: §cworldcounter: 0
+2012-07-04 15:18:53 [INFO] [32;1mCreating world...[m
+2012-07-04 15:18:54 [INFO] Preparing start region for level 2 (Seed: 4828723078207315079)
+2012-07-04 15:18:55 [INFO] Preparing spawn area for world0, 8%
+2012-07-04 15:18:56 [INFO] Preparing spawn area for world0, 16%
+2012-07-04 15:18:57 [INFO] Preparing spawn area for world0, 20%
+2012-07-04 15:18:58 [INFO] Preparing spawn area for world0, 28%
+2012-07-04 15:18:59 [INFO] Preparing spawn area for world0, 36%
+2012-07-04 15:19:00 [INFO] Preparing spawn area for world0, 44%
+2012-07-04 15:19:01 [INFO] Preparing spawn area for world0, 52%
+2012-07-04 15:19:02 [INFO] Preparing spawn area for world0, 60%
+2012-07-04 15:19:03 [INFO] Preparing spawn area for world0, 69%
+2012-07-04 15:19:04 [INFO] Preparing spawn area for world0, 77%
+2012-07-04 15:19:05 [INFO] Preparing spawn area for world0, 85%
+2012-07-04 15:19:06 [INFO] Preparing spawn area for world0, 97%
+2012-07-04 15:19:06 [INFO] [32;1mSuccesfully created world0 with generator {1} and seed long4828723078207315079.[m
+2012-07-04 15:19:06 [INFO] [32;1mCreating world...[m
+2012-07-04 15:19:06 [INFO] Preparing start region for level 3 (Seed: -8138048820645048679)
+2012-07-04 15:19:07 [INFO] Preparing spawn area for world0_nether, 8%
+2012-07-04 15:19:08 [INFO] Preparing spawn area for world0_nether, 20%
+2012-07-04 15:19:09 [INFO] Preparing spawn area for world0_nether, 24%
+2012-07-04 15:19:10 [INFO] Preparing spawn area for world0_nether, 32%
+2012-07-04 15:19:11 [INFO] Preparing spawn area for world0_nether, 40%
+2012-07-04 15:19:12 [INFO] Preparing spawn area for world0_nether, 52%
+2012-07-04 15:19:13 [INFO] Preparing spawn area for world0_nether, 60%
+2012-07-04 15:19:14 [INFO] Preparing spawn area for world0_nether, 69%
+2012-07-04 15:19:16 [INFO] Preparing spawn area for world0_nether, 77%
+2012-07-04 15:19:17 [INFO] Preparing spawn area for world0_nether, 81%
+2012-07-04 15:19:18 [INFO] Preparing spawn area for world0_nether, 93%
+2012-07-04 15:19:19 [INFO] [32;1mSuccesfully created world0_nether with generator {1} and seed -long8138048820645048679.[m
+2012-07-04 15:19:19 [INFO] [32;1mCreating world...[m
+2012-07-04 15:19:19 [INFO] Preparing start region for level 4 (Seed: 6362996607307893203)
+2012-07-04 15:19:20 [INFO] Preparing spawn area for world0_the_end, 28%
+2012-07-04 15:19:21 [INFO] Preparing spawn area for world0_the_end, 52%
+2012-07-04 15:19:22 [INFO] Preparing spawn area for world0_the_end, 77%
+2012-07-04 15:19:23 [INFO] [32;1mSuccesfully created world0_the_end with generator {1} and seed long6362996607307893203.[m
+2012-07-04 15:19:23 [INFO] [32;1mSet portal link for world {0} to world {1}[m
+2012-07-04 15:19:23 [INFO] [MultiWorld] [PortalHandler] saved!
+2012-07-04 15:19:23 [INFO] [32;1mportal link updated[m
+2012-07-04 15:19:23 [INFO] [32;1mSet portal link for world {0} to world {1}[m
+2012-07-04 15:19:23 [INFO] [MultiWorld] [PortalHandler] saved!
+2012-07-04 15:19:23 [INFO] [32;1mportal link updated[m
+2012-07-04 15:19:23 [INFO] HardcoreMode v1.0 is now enabled!
+2012-07-04 15:19:23 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.2
+2012-07-04 15:19:23 [INFO] [PermissionsEx] Superperms support enabled.
+2012-07-04 15:19:23 [INFO] [PermissionsEx] v1.19.2 enabled
+2012-07-04 15:19:23 [INFO] [Modifyworld] Enabling Modifyworld v1.19
+2012-07-04 15:19:23 [INFO] [Modifyworld] Modifyworld enabled!
+2012-07-04 15:19:23 [INFO] [Monster Apocalypse] Enabling Monster Apocalypse v<0.0.1>
+2012-07-04 15:19:23 [INFO] Monster Apocalypse enabled.
+2012-07-04 15:19:23 [INFO] [MiscellaneousPlugin] Enabling MiscellaneousPlugin v1.0
+2012-07-04 15:19:23 [INFO] [Monster Apocalypse] Disabling Monster Apocalypse v<0.0.1>
+2012-07-04 15:19:23 [INFO] Monster Apocalypse disabled.
+2012-07-04 15:19:23 [INFO] MiscellaneousPlugin v1.0 is now enabled!
+2012-07-04 15:19:23 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-07-04 15:19:23 [INFO] Done (32.980s)! For help, type "help" or "?"
+2012-07-04 15:20:31 [INFO] CONSOLE: Stopping the server..[m
+2012-07-04 15:20:31 [INFO] Stopping server
+2012-07-04 15:20:31 [INFO] [MiscellaneousPlugin] Disabling MiscellaneousPlugin v1.0
+2012-07-04 15:20:31 [INFO] MiscellaneousPlugin v1.0 is now disabled!
+2012-07-04 15:20:31 [INFO] [Modifyworld] Disabling Modifyworld v1.19
+2012-07-04 15:20:31 [INFO] [Modifyworld] Modifyworld disabled!
+2012-07-04 15:20:31 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.2
+2012-07-04 15:20:31 [INFO] [PermissionsEx] v1.19.2 disabled successfully.
+2012-07-04 15:20:31 [INFO] [HardcoreMode] Disabling HardcoreMode v1.0
+2012-07-04 15:20:31 [INFO] HardcoreMode v1.0 is now disabled!
+2012-07-04 15:20:31 [INFO] [HealingTotem] Disabling HealingTotem v0.7
+2012-07-04 15:20:31 [INFO] HealingTotem v0.7: saved 0 totems
+2012-07-04 15:20:31 [INFO] HealingTotem v0.7: is disabled!
+2012-07-04 15:20:31 [INFO] [BlockDispenser] Disabling BlockDispenser v0.0.1
+2012-07-04 15:20:31 [INFO] BlockDispenser has been disabled.
+2012-07-04 15:20:31 [INFO] [MultiWorld] Disabling MultiWorld v3.3.1
+2012-07-04 15:20:31 [INFO] [MultiWorld] Disabled.
+2012-07-04 15:20:31 [INFO] Saving chunks
+2012-07-04 15:20:36 [INFO] Stopping server
+2012-07-04 15:20:36 [INFO] Saving chunks
