@@ -3,9 +3,11 @@ package me.dbla8888.plugins.hardcoremode;
 import java.io.File;
 import java.io.IOException;
 import java.util.Collection;
-import java.util.Random;
+import java.util.LinkedList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.bukkit.ChatColor;
+import org.bukkit.Difficulty;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.PigZombie;
@@ -23,10 +25,10 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     private static final Logger logger = Logger.getLogger("Minecraft");
     Player[] players;
     OfflinePlayer[] offlineplayers;
-    boolean deathevent = false;
-    Random random = new Random();
-    int worldcounter = 0;
-
+    boolean deathevent;
+    //Random random = new Random();
+    int worldcounter;
+    boolean debug = true;
         
      /**
      * onEnable is called on server startup at a stage specified in the
@@ -38,8 +40,16 @@ public class Hardcoremode extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
         getServer().getWorld("nether").setKeepSpawnInMemory(true);
         deathevent = false;
-        worldcounter = getConfig().getInt("global.worldcounter");
-        System.out.println("worldcounter: " + worldcounter);
+        worldcounter = getConfig().getInt("global.worldcounter" , 0);
+        if(debug)log(Level.INFO, ChatColor.RED + "worldcounter: " + worldcounter);
+        
+        if(getServer().getWorld("world"+worldcounter) == null
+                || getServer().getWorld("world"+worldcounter+"_nether") == null
+                || getServer().getWorld("world"+worldcounter+"_the_end") == null)
+        {
+            generateWorlds();
+        }
+        
         System.out.println(this + " is now enabled!");
     }
     
@@ -66,32 +76,22 @@ public class Hardcoremode extends JavaPlugin implements Listener {
     @EventHandler
     public void onPlayerLogin(PlayerLoginEvent event)
     {
-        final Player player = event.getPlayer();
-        System.out.println("player in " + player.getWorld());
-        System.out.println("deathevent: " + deathevent);
-        if(deathevent)
-        {
-            player.teleport(getServer().getWorld("nether").getSpawnLocation());     
-        }
+        Player player = event.getPlayer();
+        if(debug)log(Level.INFO,"player in " + player.getWorld().getName());
+        if(debug)log(Level.INFO, getServer().getWorld("world"+ worldcounter).getName());
+        if(debug)log(Level.INFO,"deathevent: " + deathevent);
         
-        if(player.getWorld() == getServer().getWorld("dummyworld") && getServer().getWorld("world" + worldcounter) != null)
-        {
-                player.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
-        }
         
-        if(player.getWorld() == getServer().getWorld("nether"))
+        if(getServer().getWorld("world"+ worldcounter) != null)
         {
-            player.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
-        }
-//            {//need to add some error handling, should be good for the time being though
-//                getServer().getScheduler().scheduleAsyncDelayedTask(this, 
-//                    new Runnable() {
-//                        public void run() {
-//                           player.teleport(getServer().getWorld("world" + worldcounter).getSpawnLocation());
-//                        }
-//                    }, 20*30);
-//            }
-        
+            if( !player.getWorld().getName().equals(getServer().getWorld("world"+ worldcounter).getName())
+                && !player.getWorld().getName().equals(getServer().getWorld("world"+worldcounter+"_nether").getName())
+                && !player.getWorld().getName().equals(getServer().getWorld("world"+worldcounter+"_the_end").getName())
+               )
+            {
+                scheduleTeleportPlayer(player);
+            }
+        }        
     }
     
      /**
@@ -119,15 +119,17 @@ public class Hardcoremode extends JavaPlugin implements Listener {
         if(event.getEntityType().equals(EntityType.PLAYER) && !"nether".equals(event.getEntity().getWorld().getName()))
         {
             
-            deathevent = true;   
+            deathevent = true;
+            getServer().broadcastMessage(ChatColor.RED+((Player)event.getEntity()).getDisplayName() +" has died!");
             players = getServer().getOnlinePlayers();
             
 //Step 1 & 2           
             for(Player player: players)
-            {
-                
-                
+            {                
+
                 player.teleport(getServer().getWorld("nether").getSpawnLocation());
+                player.setFireTicks(0);
+                player.setFoodLevel(20);
                 player.setHealth(20);
                 
                 //the pigzombies dont forget if you attack them, and we dont want them spawn camping
@@ -145,13 +147,12 @@ public class Hardcoremode extends JavaPlugin implements Listener {
             getServer().unloadWorld("world"+ worldcounter +"_nether", false);
             getServer().unloadWorld("world"+ worldcounter +"_the_end", false);
             
-            //try{
-            //String worldfolder = getServer().getWorldContainer().getAbsolutePath();
-            //if(!(new File(worldfolder + "\\world").delete() &&
-            //new File(worldfolder + "\\world_nether").delete()&&
-            //new File(worldfolder + "\\world_the_end").delete()))
-            //    System.out.println("failed to delete worlds");
-            //}catch(Exception e){e.printStackTrace();}
+            try{
+            String worldfolder = getServer().getWorldContainer().getAbsolutePath();
+            new File(worldfolder + "\\world").deleteOnExit();
+            new File(worldfolder + "\\world_nether").deleteOnExit();
+            new File(worldfolder + "\\world_the_end").deleteOnExit();
+            }catch(Exception e){e.printStackTrace();}
             
             getServer().dispatchCommand(getServer().getConsoleSender(), "mw delete world"+worldcounter);
             getServer().dispatchCommand(getServer().getConsoleSender(), "mw delete world"+worldcounter+"_nether");
@@ -160,17 +161,10 @@ public class Hardcoremode extends JavaPlugin implements Listener {
 
 //step 5
             worldcounter++;
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + " normal");
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_nether nether ");
-            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_the_end the_end ");
-            
-            getServer().dispatchCommand(getServer().getConsoleSender(), 
-                    "mw link world"+ worldcounter + " world"+ worldcounter + "_nether ");
-            getServer().dispatchCommand(getServer().getConsoleSender(), 
-                    "mw link-end world"+ worldcounter + " world"+ worldcounter + "_the_end ");
+            generateWorlds();
             
 //step 6, 7, & 8
-            schedule();
+            scheduleTeleportAll();
         }
     }
     
@@ -185,26 +179,84 @@ public class Hardcoremode extends JavaPlugin implements Listener {
             logger.log(level, desc.getName() + " v" + desc.getVersion() + ": " + message);
     }
     
-    public void schedule()
+    public void scheduleTeleportAll()
     {
         BukkitScheduler scheduler = this.getServer().getScheduler();
-            System.out.println("Scheduling...");
-            int taskID = scheduler.scheduleAsyncDelayedTask(this, 
-               new Runnable() {
-                    public void run() {
-                        getServer().getWorld("world" + worldcounter).setTime(0000);
-                        players = getServer().getOnlinePlayers();                     
-                        for(Player player: players)
-                        {
-                            player.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
-                            player.setHealth(20);
-                        }
-                        deathevent = false;
+        if(debug)log(Level.INFO, "Scheduling teleport all...");
+        int taskID = scheduler.scheduleAsyncDelayedTask(this, 
+           new Runnable() {
+                public void run() {
+                    getServer().getWorld("world" + worldcounter).setTime(0000);
+                    players = getServer().getOnlinePlayers();                     
+                    for(Player player: players)
+                    {
+
+                        player.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
+                        player.setFireTicks(0);
+                        player.setFoodLevel(20);
+                        player.setHealth(20);
                     }
-               }, 20*60*1);
-            if(taskID == -1){
-                    this.log(Level.WARNING, "failed to schedule!");
-            }
+                    deathevent = false;
+                }
+           }, 20*60*1);
+        if(taskID == -1){
+                this.log(Level.WARNING, "failed to schedule teleport!");
+        }
+    }
+    
+    private void scheduleTeleportPlayer(Player player)
+    {
+        final Player play3r = player;
+        BukkitScheduler scheduler = this.getServer().getScheduler();
+        if(debug)log(Level.INFO,"Scheduling teleport player...");
+
+        int taskID = scheduler.scheduleAsyncDelayedTask(this, 
+           new Runnable() {
+                public void run() 
+                {                      
+                    //getServer().getWorld("world" + worldcounter).setTime(0000);
+                    if(play3r.isOnline())
+                    {
+                        play3r.teleport(getServer().getWorld("world"+ worldcounter).getSpawnLocation());
+                        play3r.setHealth(20);
+                    } 
+                }
+           }, 20*30*1);
+        if(taskID == -1){
+                this.log(Level.WARNING, "failed to schedule teleport!");
+        }
+    }
+
+    private void generateWorlds() {
+            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + " normal");
+            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_nether nether ");
+            getServer().dispatchCommand(getServer().getConsoleSender(), "mw create world"+ worldcounter + "_the_end the_end ");
+            
+            getServer().dispatchCommand(getServer().getConsoleSender(), 
+                    "mw link world"+ worldcounter + " world"+ worldcounter + "_nether");
+            getServer().dispatchCommand(getServer().getConsoleSender(), 
+                    "mw link-end world"+ worldcounter + " world"+ worldcounter + "_the_end");
+            
+            getServer().getWorld("world"+worldcounter).setDifficulty(Difficulty.HARD);
+            getServer().getWorld("world"+worldcounter+"_nether").setDifficulty(Difficulty.HARD);
+            getServer().getWorld("world"+worldcounter+"_the_end").setDifficulty(Difficulty.HARD);
+            
+            LinkedList<String> worlds = new LinkedList<String>();
+            worlds.add("world"+worldcounter);
+            worlds.add("world"+worldcounter+ "_nether");
+            worlds.add("world"+worldcounter+ "_the_end");
+            
+            File configFile = new File(
+              getServer().getPluginManager().getPlugin("Monster Apocalypse").getDataFolder(), "config.yml");
+            
+            getServer().getPluginManager().getPlugin("Monster Apocalypse").getConfig().set("Worlds", worlds);
+            
+            try {
+                getServer().getPluginManager().getPlugin("Monster Apocalypse").getConfig().save(configFile);
+            } catch (IOException ex) {
+                Logger.getLogger(Hardcoremode.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
     }
 }
 

@@ -1,0 +1,26 @@
+npc: false
+socialspy: false
+timestamps:
+  lastteleport: 1341264199744
+  logout: 1341260518444
+  login: 1341264157615
+muted: false
+inventory:
+  size: 0
+lastlocation:
+  yaw: 40.200104
+  pitch: 7.049998
+  z: 4.660121234211774
+  y: 94.0
+  world: nether
+  x: 13.776412023134544
+godmode: false
+teleportenabled: true
+newplayer: false
+afk: false
+jailed: false
+powertools:
+  '262':
+  - fireball
+ipAddress: 127.0.0.1
+powertoolsenabled: true

@@ -1,0 +1,16 @@
+To completely finish installing CraftBukkit, follow these instructions:
+Step 1. Click on "Latest CraftBukkit Download". This will take you to the latest recommended download of CraftBukkit. Make sure to save it to the folder that the "CraftBukkit Starter" file is in.
+Step 2. To start your server, click on "CraftBukkit Starter".
+Step 3. Enjoy! Make sure your server is updated!
+
+Changing the Maximum Amount of RAM Assigned to Your Server:
+If you want to edit the maximum amount of random-access memory, or RAM, your server uses, open "CraftBukkit Starter" with a text editor and replace the "512" in "-Xmx512M" with the amount of RAM you want to use.
+
+Adding Plugins to Your Server:
+If you want to add plugins to your server, you can find them here: http://j.gs/Ghy
+
+Want to Show Your Appreciation?:
+If you want to show your gratitude, you can post in the thread: http://j.gs/GAU
+Alternatively, you can recommend it to anyone you want!
+
+-Created by TheArcher

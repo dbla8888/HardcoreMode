@@ -1,0 +1,16 @@
+groups:
+  default:
+    default: true
+    permissions:
+        - modifyworld.blocks.*
+        - modifyworld.items.*
+        - modifyworld.damage.*
+        - modifyworld.mobtarget.*
+        - modifyworld.interact.*
+        - modifyworld.tame.*
+        - modifyworld.vehicle.*
+    worlds:
+      nether:
+        permissions:
+        - -modifyworld.blocks.*
+        - -modifyworld.items.*

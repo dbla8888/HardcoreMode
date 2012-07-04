@@ -1,0 +1,5 @@
+enable: false
+message-format: <%prefix%player%suffix> %message
+global-message-format: <%prefix%player%suffix> &e%message
+ranged-mode: false
+chat-range: 100.0
